@@ -1,0 +1,2620 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: /home/sun/Documentos/Proyecto/Git_Proyecto_Biomecanica/Matlab/multiples_vistas/geom_epipolar/saved_vars/Estructura_Datos.dia
+%%Creator: Dia v0.97.2
+%%CreationDate: Thu Jul 17 04:50:03 2014
+%%For: sun
+%%Orientation: Portrait
+%%Magnification: 1.0000
+%%BoundingBox: 0 0 2125 2246
+%%BeginSetup
+%%EndSetup
+%%EndComments
+%%BeginProlog
+[ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+/parenleft /parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E
+/F /G /H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum /underscore /quoteleft /a /b /c
+/d /e /f /g /h /i /j /k /l /m
+/n /o /p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /periodcentered /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave /aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn /ydieresis] /isolatin1encoding exch def
+/cp {closepath} bind def
+/c {curveto} bind def
+/f {fill} bind def
+/a {arc} bind def
+/ef {eofill} bind def
+/ex {exch} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth pop} bind def
+/tr {translate} bind def
+
+/ellipsedict 8 dict def
+ellipsedict /mtrx matrix put
+/ellipse
+{ ellipsedict begin
+   /endangle exch def
+   /startangle exch def
+   /yrad exch def
+   /xrad exch def
+   /y exch def
+   /x exch def   /savematrix mtrx currentmatrix def
+   x y tr xrad yrad sc
+   0 0 1 startangle endangle arc
+   savematrix setmatrix
+   end
+} def
+
+/mergeprocs {
+dup length
+3 -1 roll
+dup
+length
+dup
+5 1 roll
+3 -1 roll
+add
+array cvx
+dup
+3 -1 roll
+0 exch
+putinterval
+dup
+4 2 roll
+putinterval
+} bind def
+/Times-Roman-latin1
+    /Times-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Italic-latin1
+    /Times-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Bold-latin1
+    /Times-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-BoldItalic-latin1
+    /Times-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Gothic-latin1
+    /AvantGarde-Gothic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-BookOblique-latin1
+    /AvantGarde-BookOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Demi-latin1
+    /AvantGarde-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-DemiOblique-latin1
+    /AvantGarde-DemiOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Light-latin1
+    /Bookman-Light findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-LightItalic-latin1
+    /Bookman-LightItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Demi-latin1
+    /Bookman-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-DemiItalic-latin1
+    /Bookman-DemiItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-latin1
+    /Courier findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Oblique-latin1
+    /Courier-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Bold-latin1
+    /Courier-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-BoldOblique-latin1
+    /Courier-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-latin1
+    /Helvetica findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Oblique-latin1
+    /Helvetica-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Bold-latin1
+    /Helvetica-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-BoldOblique-latin1
+    /Helvetica-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-latin1
+    /Helvetica-Narrow findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Oblique-latin1
+    /Helvetica-Narrow-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Bold-latin1
+    /Helvetica-Narrow-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-BoldOblique-latin1
+    /Helvetica-Narrow-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchlbk-Roman-latin1
+    /NewCenturySchlbk-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchlbk-Italic-latin1
+    /NewCenturySchlbk-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchlbk-Bold-latin1
+    /NewCenturySchlbk-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchlbk-BoldItalic-latin1
+    /NewCenturySchlbk-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Roman-latin1
+    /Palatino-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Italic-latin1
+    /Palatino-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Bold-latin1
+    /Palatino-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-BoldItalic-latin1
+    /Palatino-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Symbol-latin1
+    /Symbol findfont
+definefont pop
+/ZapfChancery-MediumItalic-latin1
+    /ZapfChancery-MediumItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/ZapfDingbats-latin1
+    /ZapfDingbats findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+28.346000 -28.346000 scale
+0.495000 -18.736667 translate
+%%EndProlog
+
+
+0.980392 0.917647 0.690196 srgb
+n 37.705000 -57.760000 m 37.705000 -55.410000 l 41.064312 -55.410000 l 41.064312 -57.760000 l f
+n 37.705000 -56.960000 m 37.705000 -56.960000 0.800000 0.800000 180.000000 270.000000 ellipse f
+n 41.064312 -56.960000 m 41.064312 -56.960000 0.800000 0.800000 270.000000 360.000000 ellipse f
+n 36.905000 -56.960000 m 36.905000 -56.210000 l 41.864312 -56.210000 l 41.864312 -56.960000 l f
+n 37.705000 -56.210000 m 37.705000 -56.210000 0.800000 0.800000 90.000000 180.000000 ellipse f
+n 41.064312 -56.210000 m 41.064312 -56.210000 0.800000 0.800000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 37.705000 -57.760000 m 41.064312 -57.760000 l s
+n 37.705000 -55.410000 m 41.064312 -55.410000 l s
+n 37.705000 -56.960000 0.800000 0.800000 180.000000 270.000000 ellipse s
+n 41.064312 -56.960000 0.800000 0.800000 270.000000 360.000000 ellipse s
+n 36.905000 -56.960000 m 36.905000 -56.210000 l s
+n 41.864312 -56.960000 m 41.864312 -56.210000 l s
+n 37.705000 -56.210000 0.800000 0.800000 90.000000 180.000000 ellipse s
+n 41.064312 -56.210000 0.800000 0.800000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(cam) dup sw 2 div 39.384656 ex sub -56.547667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 42.300900 -57.349000 m 42.300900 -55.802333 l 61.236613 -55.802333 l 61.236613 -57.349000 l f
+n 42.300900 -57.149000 m 42.300900 -57.149000 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 61.236613 -57.149000 m 61.236613 -57.149000 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 42.100900 -57.149000 m 42.100900 -56.002333 l 61.436613 -56.002333 l 61.436613 -57.149000 l f
+n 42.300900 -56.002333 m 42.300900 -56.002333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 61.236613 -56.002333 m 61.236613 -56.002333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 42.300900 -57.349000 m 61.236613 -57.349000 l s
+n 42.300900 -55.802333 m 61.236613 -55.802333 l s
+n 42.300900 -57.149000 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 61.236613 -57.149000 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 42.100900 -57.149000 m 42.100900 -56.002333 l s
+n 61.436613 -57.149000 m 61.436613 -56.002333 l s
+n 42.300900 -56.002333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 61.236613 -56.002333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura que recopila la información de cada cámara) dup sw 2 div 51.768756 ex sub -56.538333 m
+ gs 1 -1 sc sh gr
+0.988235 0.435294 0.270588 srgb
+n 0.405000 -57.660000 m 0.405000 -55.310000 l 3.764312 -55.310000 l 3.764312 -57.660000 l f
+n 0.405000 -56.860000 m 0.405000 -56.860000 0.800000 0.800000 180.000000 270.000000 ellipse f
+n 3.764312 -56.860000 m 3.764312 -56.860000 0.800000 0.800000 270.000000 360.000000 ellipse f
+n -0.395000 -56.860000 m -0.395000 -56.110000 l 4.564312 -56.110000 l 4.564312 -56.860000 l f
+n 0.405000 -56.110000 m 0.405000 -56.110000 0.800000 0.800000 90.000000 180.000000 ellipse f
+n 3.764312 -56.110000 m 3.764312 -56.110000 0.800000 0.800000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 0.405000 -57.660000 m 3.764312 -57.660000 l s
+n 0.405000 -55.310000 m 3.764312 -55.310000 l s
+n 0.405000 -56.860000 0.800000 0.800000 180.000000 270.000000 ellipse s
+n 3.764312 -56.860000 0.800000 0.800000 270.000000 360.000000 ellipse s
+n -0.395000 -56.860000 m -0.395000 -56.110000 l s
+n 4.564312 -56.860000 m 4.564312 -56.110000 l s
+n 0.405000 -56.110000 0.800000 0.800000 90.000000 180.000000 ellipse s
+n 3.764312 -56.110000 0.800000 0.800000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(skeleton) dup sw 2 div 2.084656 ex sub -56.447667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 5.449430 -57.299000 m 5.449430 -55.752333 l 31.010377 -55.752333 l 31.010377 -57.299000 l f
+n 5.449430 -57.099000 m 5.449430 -57.099000 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 31.010377 -57.099000 m 31.010377 -57.099000 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 5.249430 -57.099000 m 5.249430 -55.952333 l 31.210377 -55.952333 l 31.210377 -57.099000 l f
+n 5.449430 -55.952333 m 5.449430 -55.952333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 31.010377 -55.952333 m 31.010377 -55.952333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 5.449430 -57.299000 m 31.010377 -57.299000 l s
+n 5.449430 -55.752333 m 31.010377 -55.752333 l s
+n 5.449430 -57.099000 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 31.010377 -57.099000 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 5.249430 -57.099000 m 5.249430 -55.952333 l s
+n 31.210377 -57.099000 m 31.210377 -55.952333 l s
+n 5.449430 -55.952333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 31.010377 -55.952333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura que recopila la información de los marcadores en el espacio 3D) dup sw 2 div 18.229904 ex sub -56.488333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 9.548650 -51.533300 m 9.548650 -49.986633 l 21.386980 -49.986633 l 21.386980 -51.533300 l f
+n 9.548650 -51.333300 m 9.548650 -51.333300 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 21.386980 -51.333300 m 21.386980 -51.333300 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 9.348650 -51.333300 m 9.348650 -50.186633 l 21.586980 -50.186633 l 21.586980 -51.333300 l f
+n 9.548650 -50.186633 m 9.548650 -50.186633 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 21.386980 -50.186633 m 21.386980 -50.186633 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 9.548650 -51.533300 m 21.386980 -51.533300 l s
+n 9.548650 -49.986633 m 21.386980 -49.986633 l s
+n 9.548650 -51.333300 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 21.386980 -51.333300 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 9.348650 -51.333300 m 9.348650 -50.186633 l s
+n 21.586980 -51.333300 m 21.586980 -50.186633 l s
+n 9.548650 -50.186633 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 21.386980 -50.186633 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Nombre del archivo.bvh de origen) dup sw 2 div 15.467815 ex sub -50.722633 m
+ gs 1 -1 sc sh gr
+0.988235 0.435294 0.270588 srgb
+n 4.355000 -51.510000 m 4.355000 -49.663333 l 8.607500 -49.663333 l 8.607500 -51.510000 l f
+n 4.355000 -51.210000 m 4.355000 -51.210000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 8.607500 -51.210000 m 8.607500 -51.210000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 4.055000 -51.210000 m 4.055000 -49.963333 l 8.907500 -49.963333 l 8.907500 -51.210000 l f
+n 4.355000 -49.963333 m 4.355000 -49.963333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 8.607500 -49.963333 m 8.607500 -49.963333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 4.355000 -51.510000 m 8.607500 -51.510000 l s
+n 4.355000 -49.663333 m 8.607500 -49.663333 l s
+n 4.355000 -51.210000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 8.607500 -51.210000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 4.055000 -51.210000 m 4.055000 -49.963333 l s
+n 8.907500 -51.210000 m 8.907500 -49.963333 l s
+n 4.355000 -49.963333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 8.607500 -49.963333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(name_bvh) 4.355000 -50.549333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 8.013450 -48.833300 m 8.013450 -47.286633 l 14.048450 -47.286633 l 14.048450 -48.833300 l f
+n 8.013450 -48.633300 m 8.013450 -48.633300 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 14.048450 -48.633300 m 14.048450 -48.633300 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 7.813450 -48.633300 m 7.813450 -47.486633 l 14.248450 -47.486633 l 14.248450 -48.633300 l f
+n 8.013450 -47.486633 m 8.013450 -47.486633 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 14.048450 -47.486633 m 14.048450 -47.486633 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 8.013450 -48.833300 m 14.048450 -48.833300 l s
+n 8.013450 -47.286633 m 14.048450 -47.286633 l s
+n 8.013450 -48.633300 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 14.048450 -48.633300 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 7.813450 -48.633300 m 7.813450 -47.486633 l s
+n 14.248450 -48.633300 m 14.248450 -47.486633 l s
+n 8.013450 -47.486633 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 14.048450 -47.486633 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura frame) dup sw 2 div 11.030950 ex sub -48.022633 m
+ gs 1 -1 sc sh gr
+0.470588 0.784314 0.705882 srgb
+n 4.579200 -48.951400 m 4.579200 -47.104733 l 7.231700 -47.104733 l 7.231700 -48.951400 l f
+n 4.579200 -48.651400 m 4.579200 -48.651400 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 7.231700 -48.651400 m 7.231700 -48.651400 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 4.279200 -48.651400 m 4.279200 -47.404733 l 7.531700 -47.404733 l 7.531700 -48.651400 l f
+n 4.579200 -47.404733 m 4.579200 -47.404733 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 7.231700 -47.404733 m 7.231700 -47.404733 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 4.579200 -48.951400 m 7.231700 -48.951400 l s
+n 4.579200 -47.104733 m 7.231700 -47.104733 l s
+n 4.579200 -48.651400 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 7.231700 -48.651400 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 4.279200 -48.651400 m 4.279200 -47.404733 l s
+n 7.531700 -48.651400 m 7.531700 -47.404733 l s
+n 4.579200 -47.404733 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 7.231700 -47.404733 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(frame) 4.579200 -47.990733 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 41.965000 -51.530000 m 41.965000 -49.483333 l 46.057500 -49.483333 l 46.057500 -51.530000 l f
+n 41.965000 -51.230000 m 41.965000 -51.230000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 46.057500 -51.230000 m 46.057500 -51.230000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 41.665000 -51.230000 m 41.665000 -49.783333 l 46.357500 -49.783333 l 46.357500 -51.230000 l f
+n 41.965000 -49.783333 m 41.965000 -49.783333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 46.057500 -49.783333 m 46.057500 -49.783333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 41.965000 -51.530000 m 46.057500 -51.530000 l s
+n 41.965000 -49.483333 m 46.057500 -49.483333 l s
+n 41.965000 -51.230000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 46.057500 -51.230000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 41.665000 -51.230000 m 41.665000 -49.783333 l s
+n 46.357500 -51.230000 m 46.357500 -49.783333 l s
+n 41.965000 -49.783333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 46.057500 -49.783333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(Info) dup sw 2 div 44.011250 ex sub -50.469333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 46.916500 -51.245500 m 46.916500 -49.698833 l 62.889596 -49.698833 l 62.889596 -51.245500 l f
+n 46.916500 -51.045500 m 46.916500 -51.045500 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 62.889596 -51.045500 m 62.889596 -51.045500 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 46.716500 -51.045500 m 46.716500 -49.898833 l 63.089596 -49.898833 l 63.089596 -51.045500 l f
+n 46.916500 -49.898833 m 46.916500 -49.898833 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 62.889596 -49.898833 m 62.889596 -49.898833 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 46.916500 -51.245500 m 62.889596 -51.245500 l s
+n 46.916500 -49.698833 m 62.889596 -49.698833 l s
+n 46.916500 -51.045500 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 62.889596 -51.045500 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 46.716500 -51.045500 m 46.716500 -49.898833 l s
+n 63.089596 -51.045500 m 63.089596 -49.898833 l s
+n 46.916500 -49.898833 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 62.889596 -49.898833 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura con la información de cada cámara) dup sw 2 div 54.903048 ex sub -50.434833 m
+ gs 1 -1 sc sh gr
+0.470588 0.784314 0.705882 srgb
+n 42.065000 -48.880000 m 42.065000 -46.833333 l 44.917500 -46.833333 l 44.917500 -48.880000 l f
+n 42.065000 -48.580000 m 42.065000 -48.580000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 44.917500 -48.580000 m 44.917500 -48.580000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 41.765000 -48.580000 m 41.765000 -47.133333 l 45.217500 -47.133333 l 45.217500 -48.580000 l f
+n 42.065000 -47.133333 m 42.065000 -47.133333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 44.917500 -47.133333 m 44.917500 -47.133333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 42.065000 -48.880000 m 44.917500 -48.880000 l s
+n 42.065000 -46.833333 m 44.917500 -46.833333 l s
+n 42.065000 -48.580000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 44.917500 -48.580000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 41.765000 -48.580000 m 41.765000 -47.133333 l s
+n 45.217500 -48.580000 m 45.217500 -47.133333 l s
+n 42.065000 -47.133333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 44.917500 -47.133333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(frame) dup sw 2 div 43.491250 ex sub -47.819333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 45.920200 -48.623800 m 45.920200 -47.077133 l 63.958296 -47.077133 l 63.958296 -48.623800 l f
+n 45.920200 -48.423800 m 45.920200 -48.423800 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 63.958296 -48.423800 m 63.958296 -48.423800 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 45.720200 -48.423800 m 45.720200 -47.277133 l 64.158296 -47.277133 l 64.158296 -48.423800 l f
+n 45.920200 -47.277133 m 45.920200 -47.277133 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 63.958296 -47.277133 m 63.958296 -47.277133 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 45.920200 -48.623800 m 63.958296 -48.623800 l s
+n 45.920200 -47.077133 m 63.958296 -47.077133 l s
+n 45.920200 -48.423800 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 63.958296 -48.423800 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 45.720200 -48.423800 m 45.720200 -47.277133 l s
+n 64.158296 -48.423800 m 64.158296 -47.277133 l s
+n 45.920200 -47.277133 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 63.958296 -47.277133 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura que mantiene ordenada la info por frame) dup sw 2 div 54.939248 ex sub -47.813133 m
+ gs 1 -1 sc sh gr
+0.784314 0.592157 0.592157 srgb
+n 41.942100 -46.030000 m 41.942100 -44.183333 l 44.292100 -44.183333 l 44.292100 -46.030000 l f
+n 41.942100 -45.730000 m 41.942100 -45.730000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 44.292100 -45.730000 m 44.292100 -45.730000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 41.642100 -45.730000 m 41.642100 -44.483333 l 44.592100 -44.483333 l 44.592100 -45.730000 l f
+n 41.942100 -44.483333 m 41.942100 -44.483333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 44.292100 -44.483333 m 44.292100 -44.483333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 41.942100 -46.030000 m 44.292100 -46.030000 l s
+n 41.942100 -44.183333 m 44.292100 -44.183333 l s
+n 41.942100 -45.730000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 44.292100 -45.730000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 41.642100 -45.730000 m 41.642100 -44.483333 l s
+n 44.592100 -45.730000 m 44.592100 -44.483333 l s
+n 41.942100 -44.483333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 44.292100 -44.483333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(path) dup sw 2 div 43.117100 ex sub -45.069333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 45.039700 -45.823800 m 45.039700 -44.277133 l 64.502796 -44.277133 l 64.502796 -45.823800 l f
+n 45.039700 -45.623800 m 45.039700 -45.623800 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 64.502796 -45.623800 m 64.502796 -45.623800 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 44.839700 -45.623800 m 44.839700 -44.477133 l 64.702796 -44.477133 l 64.702796 -45.623800 l f
+n 45.039700 -44.477133 m 45.039700 -44.477133 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 64.502796 -44.477133 m 64.502796 -44.477133 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 45.039700 -45.823800 m 64.502796 -45.823800 l s
+n 45.039700 -44.277133 m 64.502796 -44.277133 l s
+n 45.039700 -45.623800 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 64.502796 -45.623800 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 44.839700 -45.623800 m 44.839700 -44.477133 l s
+n 64.702796 -45.623800 m 64.702796 -44.477133 l s
+n 45.039700 -44.477133 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 64.502796 -44.477133 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura que mantiene ordenada la info de trayectoria) dup sw 2 div 54.771248 ex sub -45.013133 m
+ gs 1 -1 sc sh gr
+0.784314 0.592157 0.592157 srgb
+n 4.515000 -46.280000 m 4.515000 -44.433333 l 6.665000 -44.433333 l 6.665000 -46.280000 l f
+n 4.515000 -45.980000 m 4.515000 -45.980000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 6.665000 -45.980000 m 6.665000 -45.980000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 4.215000 -45.980000 m 4.215000 -44.733333 l 6.965000 -44.733333 l 6.965000 -45.980000 l f
+n 4.515000 -44.733333 m 4.515000 -44.733333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 6.665000 -44.733333 m 6.665000 -44.733333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 4.515000 -46.280000 m 6.665000 -46.280000 l s
+n 4.515000 -44.433333 m 6.665000 -44.433333 l s
+n 4.515000 -45.980000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 6.665000 -45.980000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 4.215000 -45.980000 m 4.215000 -44.733333 l s
+n 6.965000 -45.980000 m 6.965000 -44.733333 l s
+n 4.515000 -44.733333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 6.665000 -44.733333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(path) dup sw 2 div 5.590000 ex sub -45.319333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 7.489730 -46.323800 m 7.489730 -44.777133 l 26.952826 -44.777133 l 26.952826 -46.323800 l f
+n 7.489730 -46.123800 m 7.489730 -46.123800 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 26.952826 -46.123800 m 26.952826 -46.123800 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 7.289730 -46.123800 m 7.289730 -44.977133 l 27.152826 -44.977133 l 27.152826 -46.123800 l f
+n 7.489730 -44.977133 m 7.489730 -44.977133 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 26.952826 -44.977133 m 26.952826 -44.977133 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 7.489730 -46.323800 m 26.952826 -46.323800 l s
+n 7.489730 -44.777133 m 26.952826 -44.777133 l s
+n 7.489730 -46.123800 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 26.952826 -46.123800 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 7.289730 -46.123800 m 7.289730 -44.977133 l s
+n 27.152826 -46.123800 m 27.152826 -44.977133 l s
+n 7.489730 -44.977133 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 26.952826 -44.977133 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura que mantiene ordenada la info de trayectoria) dup sw 2 div 17.221278 ex sub -45.513133 m
+ gs 1 -1 sc sh gr
+0.784314 0.592157 0.592157 srgb
+n 3.047900 0.540000 m 3.047900 2.586667 l 6.864565 2.586667 l 6.864565 0.540000 l f
+n 3.047900 1.340000 m 3.047900 1.340000 0.800000 0.800000 180.000000 270.000000 ellipse f
+n 6.864565 1.340000 m 6.864565 1.340000 0.800000 0.800000 270.000000 360.000000 ellipse f
+n 2.247900 1.340000 m 2.247900 1.786667 l 7.664565 1.786667 l 7.664565 1.340000 l f
+n 3.047900 1.786667 m 3.047900 1.786667 0.800000 0.800000 90.000000 180.000000 ellipse f
+n 6.864565 1.786667 m 6.864565 1.786667 0.800000 0.800000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 3.047900 0.540000 m 6.864565 0.540000 l s
+n 3.047900 2.586667 m 6.864565 2.586667 l s
+n 3.047900 1.340000 0.800000 0.800000 180.000000 270.000000 ellipse s
+n 6.864565 1.340000 0.800000 0.800000 270.000000 360.000000 ellipse s
+n 2.247900 1.340000 m 2.247900 1.786667 l s
+n 7.664565 1.340000 m 7.664565 1.786667 l s
+n 3.047900 1.786667 0.800000 0.800000 90.000000 180.000000 ellipse s
+n 6.864565 1.786667 0.800000 0.800000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(path) dup sw 2 div 4.956233 ex sub 1.600667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 7.572727 0.896167 m 7.572727 2.442833 l 27.035823 2.442833 l 27.035823 0.896167 l f
+n 7.572727 1.096167 m 7.572727 1.096167 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 27.035823 1.096167 m 27.035823 1.096167 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 7.372727 1.096167 m 7.372727 2.242833 l 27.235823 2.242833 l 27.235823 1.096167 l f
+n 7.572727 2.242833 m 7.572727 2.242833 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 27.035823 2.242833 m 27.035823 2.242833 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 7.572727 0.896167 m 27.035823 0.896167 l s
+n 7.572727 2.442833 m 27.035823 2.442833 l s
+n 7.572727 1.096167 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 27.035823 1.096167 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 7.372727 1.096167 m 7.372727 2.242833 l s
+n 27.235823 1.096167 m 27.235823 2.242833 l s
+n 7.572727 2.242833 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 27.035823 2.242833 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura que mantiene ordenada la info de trayectoria) dup sw 2 div 17.304275 ex sub 1.706833 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 9.868360 3.296667 m 9.868360 4.843333 l 18.663477 4.843333 l 18.663477 3.296667 l f
+n 9.868360 3.496667 m 9.868360 3.496667 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 18.663477 3.496667 m 18.663477 3.496667 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 9.668360 3.496667 m 9.668360 4.643333 l 18.863477 4.643333 l 18.863477 3.496667 l f
+n 9.868360 4.643333 m 9.868360 4.643333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 18.663477 4.643333 m 18.663477 4.643333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 9.868360 3.296667 m 18.663477 3.296667 l s
+n 9.868360 4.843333 m 18.663477 4.843333 l s
+n 9.868360 3.496667 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 18.663477 3.496667 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 9.668360 3.496667 m 9.668360 4.643333 l s
+n 18.863477 3.496667 m 18.863477 4.643333 l s
+n 9.868360 4.643333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 18.663477 4.643333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Nombre de la trayectoria) dup sw 2 div 14.265919 ex sub 4.107333 m
+ gs 1 -1 sc sh gr
+0.784314 0.592157 0.592157 srgb
+n 6.415000 3.420000 m 6.415000 5.266667 l 8.920000 5.266667 l 8.920000 3.420000 l f
+n 6.415000 3.720000 m 6.415000 3.720000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 8.920000 3.720000 m 8.920000 3.720000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 6.115000 3.720000 m 6.115000 4.966667 l 9.220000 4.966667 l 9.220000 3.720000 l f
+n 6.415000 4.966667 m 6.415000 4.966667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 8.920000 4.966667 m 8.920000 4.966667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.415000 3.420000 m 8.920000 3.420000 l s
+n 6.415000 5.266667 m 8.920000 5.266667 l s
+n 6.415000 3.720000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 8.920000 3.720000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 6.115000 3.720000 m 6.115000 4.966667 l s
+n 9.220000 3.720000 m 9.220000 4.966667 l s
+n 6.415000 4.966667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 8.920000 4.966667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(name) 6.415000 4.380667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 11.561706 5.846667 m 11.561706 7.393333 l 29.476940 7.393333 l 29.476940 5.846667 l f
+n 11.561706 6.046667 m 11.561706 6.046667 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 29.476940 6.046667 m 29.476940 6.046667 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 11.361706 6.046667 m 11.361706 7.193333 l 29.676940 7.193333 l 29.676940 6.046667 l f
+n 11.561706 7.193333 m 11.561706 7.193333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 29.476940 7.193333 m 29.476940 7.193333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 11.561706 5.846667 m 29.476940 5.846667 l s
+n 11.561706 7.393333 m 29.476940 7.393333 l s
+n 11.561706 6.046667 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 29.476940 6.046667 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 11.361706 6.046667 m 11.361706 7.193333 l s
+n 29.676940 6.046667 m 29.676940 7.193333 l s
+n 11.561706 7.193333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 29.476940 7.193333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(secuencia de marcadores asociados a la trayectoria) dup sw 2 div 20.519323 ex sub 6.657333 m
+ gs 1 -1 sc sh gr
+0.784314 0.592157 0.592157 srgb
+n 6.526300 5.820000 m 6.526300 7.666667 l 10.478800 7.666667 l 10.478800 5.820000 l f
+n 6.526300 6.120000 m 6.526300 6.120000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 10.478800 6.120000 m 10.478800 6.120000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 6.226300 6.120000 m 6.226300 7.366667 l 10.778800 7.366667 l 10.778800 6.120000 l f
+n 6.526300 7.366667 m 6.526300 7.366667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 10.478800 7.366667 m 10.478800 7.366667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.526300 5.820000 m 10.478800 5.820000 l s
+n 6.526300 7.666667 m 10.478800 7.666667 l s
+n 6.526300 6.120000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 10.478800 6.120000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 6.226300 6.120000 m 6.226300 7.366667 l s
+n 10.778800 6.120000 m 10.778800 7.366667 l s
+n 6.526300 7.366667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 10.478800 7.366667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(members) 6.526300 6.780667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 10.537125 8.446667 m 10.537125 9.993333 l 28.897125 9.993333 l 28.897125 8.446667 l f
+n 10.537125 8.646667 m 10.537125 8.646667 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 28.897125 8.646667 m 28.897125 8.646667 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 10.337125 8.646667 m 10.337125 9.793333 l 29.097125 9.793333 l 29.097125 8.646667 l f
+n 10.537125 9.793333 m 10.537125 9.793333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 28.897125 9.793333 m 28.897125 9.793333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 10.537125 8.446667 m 28.897125 8.446667 l s
+n 10.537125 9.993333 m 28.897125 9.993333 l s
+n 10.537125 8.646667 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 28.897125 8.646667 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 10.337125 8.646667 m 10.337125 9.793333 l s
+n 29.097125 8.646667 m 29.097125 9.793333 l s
+n 10.537125 9.793333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 28.897125 9.793333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(con alguna metrica indica la calidad de la trayectoria) dup sw 2 div 19.717125 ex sub 9.257333 m
+ gs 1 -1 sc sh gr
+0.784314 0.592157 0.592157 srgb
+n 6.615000 8.470000 m 6.615000 10.316667 l 9.610000 10.316667 l 9.610000 8.470000 l f
+n 6.615000 8.770000 m 6.615000 8.770000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 9.610000 8.770000 m 9.610000 8.770000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 6.315000 8.770000 m 6.315000 10.016667 l 9.910000 10.016667 l 9.910000 8.770000 l f
+n 6.615000 10.016667 m 6.615000 10.016667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 9.610000 10.016667 m 9.610000 10.016667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.615000 8.470000 m 9.610000 8.470000 l s
+n 6.615000 10.316667 m 9.610000 10.316667 l s
+n 6.615000 8.770000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 9.610000 8.770000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 6.315000 8.770000 m 6.315000 10.016667 l s
+n 9.910000 8.770000 m 9.910000 10.016667 l s
+n 6.615000 10.016667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 9.610000 10.016667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(state) 6.615000 9.430667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 11.473730 -2.933333 m 11.473730 -1.386667 l 23.774082 -1.386667 l 23.774082 -2.933333 l f
+n 11.473730 -2.733333 m 11.473730 -2.733333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 23.774082 -2.733333 m 23.774082 -2.733333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 11.273730 -2.733333 m 11.273730 -1.586667 l 23.974082 -1.586667 l 23.974082 -2.733333 l f
+n 11.473730 -1.586667 m 11.473730 -1.586667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 23.774082 -1.586667 m 23.774082 -1.586667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 11.473730 -2.933333 m 23.774082 -2.933333 l s
+n 11.473730 -1.386667 m 23.774082 -1.386667 l s
+n 11.473730 -2.733333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 23.774082 -2.733333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 11.273730 -2.733333 m 11.273730 -1.586667 l s
+n 23.974082 -2.733333 m 23.974082 -1.586667 l s
+n 11.473730 -1.586667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 23.774082 -1.586667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(número de marcadores en el frame) dup sw 2 div 17.623906 ex sub -2.122667 m
+ gs 1 -1 sc sh gr
+0.470588 0.784314 0.705882 srgb
+n 5.661400 -2.960000 m 5.661400 -1.113333 l 10.405712 -1.113333 l 10.405712 -2.960000 l f
+n 5.661400 -2.660000 m 5.661400 -2.660000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 10.405712 -2.660000 m 10.405712 -2.660000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 5.361400 -2.660000 m 5.361400 -1.413333 l 10.705712 -1.413333 l 10.705712 -2.660000 l f
+n 5.661400 -1.413333 m 5.661400 -1.413333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 10.405712 -1.413333 m 10.405712 -1.413333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 5.661400 -2.960000 m 10.405712 -2.960000 l s
+n 5.661400 -1.113333 m 10.405712 -1.113333 l s
+n 5.661400 -2.660000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 10.405712 -2.660000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 5.361400 -2.660000 m 5.361400 -1.413333 l s
+n 10.705712 -2.660000 m 10.705712 -1.413333 l s
+n 5.661400 -1.413333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 10.405712 -1.413333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(n_markers) 5.661400 -1.999333 m
+ gs 1 -1 sc sh gr
+/Helvetica-latin1 ff 0.592667 scf sf
+1.000000 0.647059 0.000000 srgb
+n 8.703600 -5.410000 m 8.703600 -3.886250 l 19.056413 -3.886250 l 19.056413 -5.410000 l f
+n 8.703600 -5.210000 m 8.703600 -5.210000 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 19.056413 -5.210000 m 19.056413 -5.210000 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 8.503600 -5.210000 m 8.503600 -4.086250 l 19.256413 -4.086250 l 19.256413 -5.210000 l f
+n 8.703600 -4.086250 m 8.703600 -4.086250 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 19.056413 -4.086250 m 19.056413 -4.086250 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 8.703600 -5.410000 m 19.056413 -5.410000 l s
+n 8.703600 -3.886250 m 19.056413 -3.886250 l s
+n 8.703600 -5.210000 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 19.056413 -5.210000 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 8.503600 -5.210000 m 8.503600 -4.086250 l s
+n 19.256413 -5.210000 m 19.256413 -4.086250 l s
+n 8.703600 -4.086250 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 19.056413 -4.086250 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Tiempo asociado al frame) dup sw 2 div 13.880006 ex sub -4.610792 m
+ gs 1 -1 sc sh gr
+0.470588 0.784314 0.705882 srgb
+n 5.705000 -5.510000 m 5.705000 -3.663333 l 7.827500 -3.663333 l 7.827500 -5.510000 l f
+n 5.705000 -5.210000 m 5.705000 -5.210000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 7.827500 -5.210000 m 7.827500 -5.210000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 5.405000 -5.210000 m 5.405000 -3.963333 l 8.127500 -3.963333 l 8.127500 -5.210000 l f
+n 5.705000 -3.963333 m 5.705000 -3.963333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 7.827500 -3.963333 m 7.827500 -3.963333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 5.705000 -5.510000 m 7.827500 -5.510000 l s
+n 5.705000 -3.663333 m 7.827500 -3.663333 l s
+n 5.705000 -5.210000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 7.827500 -5.210000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 5.405000 -5.210000 m 5.405000 -3.963333 l s
+n 8.127500 -5.210000 m 8.127500 -3.963333 l s
+n 5.705000 -3.963333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 7.827500 -3.963333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(time) 5.705000 -4.549333 m
+ gs 1 -1 sc sh gr
+/Helvetica-latin1 ff 0.592667 scf sf
+1.000000 0.647059 0.000000 srgb
+n 10.787215 -9.983333 m 10.787215 -8.436667 l 17.230572 -8.436667 l 17.230572 -9.983333 l f
+n 10.787215 -9.783333 m 10.787215 -9.783333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 17.230572 -9.783333 m 17.230572 -9.783333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 10.587215 -9.783333 m 10.587215 -8.636667 l 17.430572 -8.636667 l 17.430572 -9.783333 l f
+n 10.787215 -8.636667 m 10.787215 -8.636667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 17.230572 -8.636667 m 17.230572 -8.636667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 10.787215 -9.983333 m 17.230572 -9.983333 l s
+n 10.787215 -8.436667 m 17.230572 -8.436667 l s
+n 10.787215 -9.783333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 17.230572 -9.783333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 10.587215 -9.783333 m 10.587215 -8.636667 l s
+n 17.430572 -9.783333 m 17.430572 -8.636667 l s
+n 10.787215 -8.636667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 17.230572 -8.636667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura marker) dup sw 2 div 14.008894 ex sub -9.172667 m
+ gs 1 -1 sc sh gr
+0.901961 0.901961 0.980392 srgb
+n 5.631200 -10.210000 m 5.631200 -8.363333 l 9.673700 -8.363333 l 9.673700 -10.210000 l f
+n 5.631200 -9.910000 m 5.631200 -9.910000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 9.673700 -9.910000 m 9.673700 -9.910000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 5.331200 -9.910000 m 5.331200 -8.663333 l 9.973700 -8.663333 l 9.973700 -9.910000 l f
+n 5.631200 -8.663333 m 5.631200 -8.663333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 9.673700 -8.663333 m 9.673700 -8.663333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 5.631200 -10.210000 m 9.673700 -10.210000 l s
+n 5.631200 -8.363333 m 9.673700 -8.363333 l s
+n 5.631200 -9.910000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 9.673700 -9.910000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 5.331200 -9.910000 m 5.331200 -8.663333 l s
+n 9.973700 -9.910000 m 9.973700 -8.663333 l s
+n 5.631200 -8.663333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 9.673700 -8.663333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(marker) dup sw 2 div 7.652450 ex sub -9.249333 m
+ gs 1 -1 sc sh gr
+0.470588 0.784314 0.705882 srgb
+n 2.411800 -12.956700 m 2.411800 -10.910033 l 4.264300 -10.910033 l 4.264300 -12.956700 l f
+n 2.411800 -12.156700 m 2.411800 -12.156700 0.800000 0.800000 180.000000 270.000000 ellipse f
+n 4.264300 -12.156700 m 4.264300 -12.156700 0.800000 0.800000 270.000000 360.000000 ellipse f
+n 1.611800 -12.156700 m 1.611800 -11.710033 l 5.064300 -11.710033 l 5.064300 -12.156700 l f
+n 2.411800 -11.710033 m 2.411800 -11.710033 0.800000 0.800000 90.000000 180.000000 ellipse f
+n 4.264300 -11.710033 m 4.264300 -11.710033 0.800000 0.800000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 2.411800 -12.956700 m 4.264300 -12.956700 l s
+n 2.411800 -10.910033 m 4.264300 -10.910033 l s
+n 2.411800 -12.156700 0.800000 0.800000 180.000000 270.000000 ellipse s
+n 4.264300 -12.156700 0.800000 0.800000 270.000000 360.000000 ellipse s
+n 1.611800 -12.156700 m 1.611800 -11.710033 l s
+n 5.064300 -12.156700 m 5.064300 -11.710033 l s
+n 2.411800 -11.710033 0.800000 0.800000 90.000000 180.000000 ellipse s
+n 4.264300 -11.710033 0.800000 0.800000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(frame) dup sw 2 div 3.338050 ex sub -11.896033 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 5.767002 -12.700533 m 5.767002 -11.153867 l 23.805098 -11.153867 l 23.805098 -12.700533 l f
+n 5.767002 -12.500533 m 5.767002 -12.500533 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 23.805098 -12.500533 m 23.805098 -12.500533 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 5.567002 -12.500533 m 5.567002 -11.353867 l 24.005098 -11.353867 l 24.005098 -12.500533 l f
+n 5.767002 -11.353867 m 5.767002 -11.353867 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 23.805098 -11.353867 m 23.805098 -11.353867 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 5.767002 -12.700533 m 23.805098 -12.700533 l s
+n 5.767002 -11.153867 m 23.805098 -11.153867 l s
+n 5.767002 -12.500533 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 23.805098 -12.500533 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 5.567002 -12.500533 m 5.567002 -11.353867 l s
+n 24.005098 -12.500533 m 24.005098 -11.353867 l s
+n 5.767002 -11.353867 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 23.805098 -11.353867 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura que mantiene ordenada la info por frame) dup sw 2 div 14.786050 ex sub -11.889867 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 11.194870 -15.983333 m 11.194870 -14.436667 l 34.815105 -14.436667 l 34.815105 -15.983333 l f
+n 11.194870 -15.783333 m 11.194870 -15.783333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 34.815105 -15.783333 m 34.815105 -15.783333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 10.994870 -15.783333 m 10.994870 -14.636667 l 35.015105 -14.636667 l 35.015105 -15.783333 l f
+n 11.194870 -14.636667 m 11.194870 -14.636667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 34.815105 -14.636667 m 34.815105 -14.636667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 11.194870 -15.983333 m 34.815105 -15.983333 l s
+n 11.194870 -14.436667 m 34.815105 -14.436667 l s
+n 11.194870 -15.783333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 34.815105 -15.783333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 10.994870 -15.783333 m 10.994870 -14.636667 l s
+n 35.015105 -15.783333 m 35.015105 -14.636667 l s
+n 11.194870 -14.636667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 34.815105 -14.636667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Conjunto de cámaras que reconstruyen el marcador \(útil solo en 3D\)) dup sw 2 div 23.004988 ex sub -15.172667 m
+ gs 1 -1 sc sh gr
+0.901961 0.901961 0.980392 srgb
+n 6.190800 -16.060000 m 6.190800 -14.213333 l 11.040800 -14.213333 l 11.040800 -16.060000 l f
+n 6.190800 -15.760000 m 6.190800 -15.760000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 11.040800 -15.760000 m 11.040800 -15.760000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 5.890800 -15.760000 m 5.890800 -14.513333 l 11.340800 -14.513333 l 11.340800 -15.760000 l f
+n 6.190800 -14.513333 m 6.190800 -14.513333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 11.040800 -14.513333 m 11.040800 -14.513333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.190800 -16.060000 m 11.040800 -16.060000 l s
+n 6.190800 -14.213333 m 11.040800 -14.213333 l s
+n 6.190800 -15.760000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 11.040800 -15.760000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 5.890800 -15.760000 m 5.890800 -14.513333 l s
+n 11.340800 -15.760000 m 11.340800 -14.513333 l s
+n 6.190800 -14.513333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 11.040800 -14.513333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(source_cam) 6.190800 -15.099333 m
+ gs 1 -1 sc sh gr
+/Helvetica-latin1 ff 0.592667 scf sf
+(+++) 18.205000 -25.629333 m
+ gs 1 -1 sc sh gr
+/Helvetica-latin1 ff 0.592667 scf sf
+0.901961 0.901961 0.980392 srgb
+n 1.905000 -26.760000 m 1.905000 -24.410000 l 5.264312 -24.410000 l 5.264312 -26.760000 l f
+n 1.905000 -25.960000 m 1.905000 -25.960000 0.800000 0.800000 180.000000 270.000000 ellipse f
+n 5.264312 -25.960000 m 5.264312 -25.960000 0.800000 0.800000 270.000000 360.000000 ellipse f
+n 1.105000 -25.960000 m 1.105000 -25.210000 l 6.064312 -25.210000 l 6.064312 -25.960000 l f
+n 1.905000 -25.210000 m 1.905000 -25.210000 0.800000 0.800000 90.000000 180.000000 ellipse f
+n 5.264312 -25.210000 m 5.264312 -25.210000 0.800000 0.800000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 1.905000 -26.760000 m 5.264312 -26.760000 l s
+n 1.905000 -24.410000 m 5.264312 -24.410000 l s
+n 1.905000 -25.960000 0.800000 0.800000 180.000000 270.000000 ellipse s
+n 5.264312 -25.960000 0.800000 0.800000 270.000000 360.000000 ellipse s
+n 1.105000 -25.960000 m 1.105000 -25.210000 l s
+n 6.064312 -25.960000 m 6.064312 -25.210000 l s
+n 1.905000 -25.210000 0.800000 0.800000 90.000000 180.000000 ellipse s
+n 5.264312 -25.210000 0.800000 0.800000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(marker) dup sw 2 div 3.584656 ex sub -25.547667 m
+ gs 1 -1 sc sh gr
+/Helvetica-latin1 ff 0.592667 scf sf
+1.000000 0.647059 0.000000 srgb
+n 6.515662 -26.383333 m 6.515662 -24.836667 l 25.793875 -24.836667 l 25.793875 -26.383333 l f
+n 6.515662 -26.183333 m 6.515662 -26.183333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 25.793875 -26.183333 m 25.793875 -26.183333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 6.315662 -26.183333 m 6.315662 -25.036667 l 25.993875 -25.036667 l 25.993875 -26.183333 l f
+n 6.515662 -25.036667 m 6.515662 -25.036667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 25.793875 -25.036667 m 25.793875 -25.036667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.515662 -26.383333 m 25.793875 -26.383333 l s
+n 6.515662 -24.836667 m 25.793875 -24.836667 l s
+n 6.515662 -26.183333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 25.793875 -26.183333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 6.315662 -26.183333 m 6.315662 -25.036667 l s
+n 25.993875 -26.183333 m 25.993875 -25.036667 l s
+n 6.515662 -25.036667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 25.793875 -25.036667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura que mantiene ordenada la info por marcador) dup sw 2 div 16.154769 ex sub -25.572667 m
+ gs 1 -1 sc sh gr
+/Helvetica-latin1 ff 0.592667 scf sf
+1.000000 0.647059 0.000000 srgb
+n 9.396987 -23.783333 m 9.396987 -22.236667 l 22.807700 -22.236667 l 22.807700 -23.783333 l f
+n 9.396987 -23.583333 m 9.396987 -23.583333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 22.807700 -23.583333 m 22.807700 -23.583333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 9.196987 -23.583333 m 9.196987 -22.436667 l 23.007700 -22.436667 l 23.007700 -23.583333 l f
+n 9.396987 -22.436667 m 9.396987 -22.436667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 22.807700 -22.436667 m 22.807700 -22.436667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 9.396987 -23.783333 m 22.807700 -23.783333 l s
+n 9.396987 -22.236667 m 22.807700 -22.236667 l s
+n 9.396987 -23.583333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 22.807700 -23.583333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 9.196987 -23.583333 m 9.196987 -22.436667 l s
+n 23.007700 -23.583333 m 23.007700 -22.436667 l s
+n 9.396987 -22.436667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 22.807700 -22.436667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(coordenadas euclidianas del marcador) dup sw 2 div 16.102344 ex sub -22.972667 m
+ gs 1 -1 sc sh gr
+0.901961 0.901961 0.980392 srgb
+n 6.057300 -23.760000 m 6.057300 -21.913333 l 8.609800 -21.913333 l 8.609800 -23.760000 l f
+n 6.057300 -23.460000 m 6.057300 -23.460000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 8.609800 -23.460000 m 8.609800 -23.460000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 5.757300 -23.460000 m 5.757300 -22.213333 l 8.909800 -22.213333 l 8.909800 -23.460000 l f
+n 6.057300 -22.213333 m 6.057300 -22.213333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 8.609800 -22.213333 m 8.609800 -22.213333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.057300 -23.760000 m 8.609800 -23.760000 l s
+n 6.057300 -21.913333 m 8.609800 -21.913333 l s
+n 6.057300 -23.460000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 8.609800 -23.460000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 5.757300 -23.460000 m 5.757300 -22.213333 l s
+n 8.909800 -23.460000 m 8.909800 -22.213333 l s
+n 6.057300 -22.213333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 8.609800 -22.213333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(coord) 6.057300 -22.799333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 9.403320 -21.333333 m 9.403320 -19.786667 l 17.108555 -19.786667 l 17.108555 -21.333333 l f
+n 9.403320 -21.133333 m 9.403320 -21.133333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 17.108555 -21.133333 m 17.108555 -21.133333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 9.203320 -21.133333 m 9.203320 -19.986667 l 17.308555 -19.986667 l 17.308555 -21.133333 l f
+n 9.403320 -19.986667 m 9.403320 -19.986667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 17.108555 -19.986667 m 17.108555 -19.986667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 9.403320 -21.333333 m 17.108555 -21.333333 l s
+n 9.403320 -19.786667 m 17.108555 -19.786667 l s
+n 9.403320 -21.133333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 17.108555 -21.133333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 9.203320 -21.133333 m 9.203320 -19.986667 l s
+n 17.308555 -21.133333 m 17.308555 -19.986667 l s
+n 9.403320 -19.986667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 17.108555 -19.986667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Nombre del marcador) dup sw 2 div 13.255938 ex sub -20.522667 m
+ gs 1 -1 sc sh gr
+0.901961 0.901961 0.980392 srgb
+n 6.155000 -21.310000 m 6.155000 -19.463333 l 8.660000 -19.463333 l 8.660000 -21.310000 l f
+n 6.155000 -21.010000 m 6.155000 -21.010000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 8.660000 -21.010000 m 8.660000 -21.010000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 5.855000 -21.010000 m 5.855000 -19.763333 l 8.960000 -19.763333 l 8.960000 -21.010000 l f
+n 6.155000 -19.763333 m 6.155000 -19.763333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 8.660000 -19.763333 m 8.660000 -19.763333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.155000 -21.310000 m 8.660000 -21.310000 l s
+n 6.155000 -19.463333 m 8.660000 -19.463333 l s
+n 6.155000 -21.010000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 8.660000 -21.010000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 5.855000 -21.010000 m 5.855000 -19.763333 l s
+n 8.960000 -21.010000 m 8.960000 -19.763333 l s
+n 6.155000 -19.763333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 8.660000 -19.763333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(name) 6.155000 -20.349333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 9.544910 -18.483333 m 9.544910 -16.936667 l 26.815027 -16.936667 l 26.815027 -18.483333 l f
+n 9.544910 -18.283333 m 9.544910 -18.283333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 26.815027 -18.283333 m 26.815027 -18.283333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 9.344910 -18.283333 m 9.344910 -17.136667 l 27.015027 -17.136667 l 27.015027 -18.283333 l f
+n 9.544910 -17.136667 m 9.544910 -17.136667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 26.815027 -17.136667 m 26.815027 -17.136667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 9.544910 -18.483333 m 26.815027 -18.483333 l s
+n 9.544910 -16.936667 m 26.815027 -16.936667 l s
+n 9.544910 -18.283333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 26.815027 -18.283333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 9.344910 -18.283333 m 9.344910 -17.136667 l s
+n 27.015027 -18.283333 m 27.015027 -17.136667 l s
+n 9.544910 -17.136667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 26.815027 -17.136667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(con alguna metrica indica la calidad del marcador) dup sw 2 div 18.179969 ex sub -17.672667 m
+ gs 1 -1 sc sh gr
+0.901961 0.901961 0.980392 srgb
+n 6.301100 -18.660000 m 6.301100 -16.813333 l 8.671100 -16.813333 l 8.671100 -18.660000 l f
+n 6.301100 -18.360000 m 6.301100 -18.360000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 8.671100 -18.360000 m 8.671100 -18.360000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 6.001100 -18.360000 m 6.001100 -17.113333 l 8.971100 -17.113333 l 8.971100 -18.360000 l f
+n 6.301100 -17.113333 m 6.301100 -17.113333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 8.671100 -17.113333 m 8.671100 -17.113333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.301100 -18.660000 m 8.671100 -18.660000 l s
+n 6.301100 -16.813333 m 8.671100 -16.813333 l s
+n 6.301100 -18.360000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 8.671100 -18.360000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 6.001100 -18.360000 m 6.001100 -17.113333 l s
+n 8.971100 -18.360000 m 8.971100 -17.113333 l s
+n 6.301100 -17.113333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 8.671100 -17.113333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(state) 6.301100 -17.699333 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 34.431800 -27.105000 m 34.431800 -25.058333 l 37.524300 -25.058333 l 37.524300 -27.105000 l f
+n 34.431800 -26.305000 m 34.431800 -26.305000 0.800000 0.800000 180.000000 270.000000 ellipse f
+n 37.524300 -26.305000 m 37.524300 -26.305000 0.800000 0.800000 270.000000 360.000000 ellipse f
+n 33.631800 -26.305000 m 33.631800 -25.858333 l 38.324300 -25.858333 l 38.324300 -26.305000 l f
+n 34.431800 -25.858333 m 34.431800 -25.858333 0.800000 0.800000 90.000000 180.000000 ellipse f
+n 37.524300 -25.858333 m 37.524300 -25.858333 0.800000 0.800000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 34.431800 -27.105000 m 37.524300 -27.105000 l s
+n 34.431800 -25.058333 m 37.524300 -25.058333 l s
+n 34.431800 -26.305000 0.800000 0.800000 180.000000 270.000000 ellipse s
+n 37.524300 -26.305000 0.800000 0.800000 270.000000 360.000000 ellipse s
+n 33.631800 -26.305000 m 33.631800 -25.858333 l s
+n 38.324300 -26.305000 m 38.324300 -25.858333 l s
+n 34.431800 -25.858333 0.800000 0.800000 90.000000 180.000000 ellipse s
+n 37.524300 -25.858333 0.800000 0.800000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(Info) dup sw 2 div 35.978050 ex sub -26.044333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 38.883252 -26.820533 m 38.883252 -25.273867 l 54.856348 -25.273867 l 54.856348 -26.820533 l f
+n 38.883252 -26.620533 m 38.883252 -26.620533 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 54.856348 -26.620533 m 54.856348 -26.620533 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 38.683252 -26.620533 m 38.683252 -25.473867 l 55.056348 -25.473867 l 55.056348 -26.620533 l f
+n 38.883252 -25.473867 m 38.883252 -25.473867 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 54.856348 -25.473867 m 54.856348 -25.473867 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 38.883252 -26.820533 m 54.856348 -26.820533 l s
+n 38.883252 -25.273867 m 54.856348 -25.273867 l s
+n 38.883252 -26.620533 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 54.856348 -26.620533 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 38.683252 -26.620533 m 38.683252 -25.473867 l s
+n 55.056348 -26.620533 m 55.056348 -25.473867 l s
+n 38.883252 -25.473867 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 54.856348 -25.473867 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura con la información de cada cámara) dup sw 2 div 46.869800 ex sub -26.009867 m
+ gs 1 -1 sc sh gr
+/Helvetica-latin1 ff 0.592667 scf sf
+1.000000 0.647059 0.000000 srgb
+n 44.483510 0.066667 m 44.483510 1.613333 l 56.498627 1.613333 l 56.498627 0.066667 l f
+n 44.483510 0.266667 m 44.483510 0.266667 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 56.498627 0.266667 m 56.498627 0.266667 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 44.283510 0.266667 m 44.283510 1.413333 l 56.698627 1.413333 l 56.698627 0.266667 l f
+n 44.483510 1.413333 m 44.483510 1.413333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 56.498627 1.413333 m 56.498627 1.413333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 44.483510 0.066667 m 56.498627 0.066667 l s
+n 44.483510 1.613333 m 56.498627 1.613333 l s
+n 44.483510 0.266667 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 56.498627 0.266667 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 44.283510 0.266667 m 44.283510 1.413333 l s
+n 56.698627 0.266667 m 56.698627 1.413333 l s
+n 44.483510 1.413333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 56.498627 1.413333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Matriz de proyección de la cámara) dup sw 2 div 50.491069 ex sub 0.877333 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.504200 -0.010000 m 36.504200 1.836667 l 43.619200 1.836667 l 43.619200 -0.010000 l f
+n 36.504200 0.290000 m 36.504200 0.290000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 43.619200 0.290000 m 43.619200 0.290000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.204200 0.290000 m 36.204200 1.536667 l 43.919200 1.536667 l 43.919200 0.290000 l f
+n 36.504200 1.536667 m 36.504200 1.536667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 43.619200 1.536667 m 43.619200 1.536667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.504200 -0.010000 m 43.619200 -0.010000 l s
+n 36.504200 1.836667 m 43.619200 1.836667 l s
+n 36.504200 0.290000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 43.619200 0.290000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.204200 0.290000 m 36.204200 1.536667 l s
+n 43.919200 0.290000 m 43.919200 1.536667 l s
+n 36.504200 1.536667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 43.619200 1.536667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(projection_matrix) 36.504200 0.950667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 41.566387 -14.754044 m 41.566387 -13.207377 l 58.550786 -13.207377 l 58.550786 -14.754044 l f
+n 41.566387 -14.554044 m 41.566387 -14.554044 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 58.550786 -14.554044 m 58.550786 -14.554044 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 41.366387 -14.554044 m 41.366387 -13.407377 l 58.750786 -13.407377 l 58.750786 -14.554044 l f
+n 41.566387 -13.407377 m 41.566387 -13.407377 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 58.550786 -13.407377 m 58.550786 -13.407377 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 41.566387 -14.754044 m 58.550786 -14.754044 l s
+n 41.566387 -13.207377 m 58.550786 -13.207377 l s
+n 41.566387 -14.554044 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 58.550786 -14.554044 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 41.366387 -14.554044 m 41.366387 -13.407377 l s
+n 58.750786 -14.554044 m 58.750786 -13.407377 l s
+n 41.566387 -13.407377 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 58.550786 -13.407377 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(=[resolution_x, resolution_y] unidades en pixeles) dup sw 2 div 50.058586 ex sub -13.943377 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.370400 -14.710000 m 36.370400 -12.863333 l 40.652900 -12.863333 l 40.652900 -14.710000 l f
+n 36.370400 -14.410000 m 36.370400 -14.410000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 40.652900 -14.410000 m 40.652900 -14.410000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.070400 -14.410000 m 36.070400 -13.163333 l 40.952900 -13.163333 l 40.952900 -14.410000 l f
+n 36.370400 -13.163333 m 36.370400 -13.163333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 40.652900 -13.163333 m 40.652900 -13.163333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.370400 -14.710000 m 40.652900 -14.710000 l s
+n 36.370400 -12.863333 m 40.652900 -12.863333 l s
+n 36.370400 -14.410000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 40.652900 -14.410000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.070400 -14.410000 m 36.070400 -13.163333 l s
+n 40.952900 -14.410000 m 40.952900 -13.163333 l s
+n 36.370400 -13.163333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 40.652900 -13.163333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(resolution) 36.370400 -13.749333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 39.365410 -17.483333 m 39.365410 -15.936667 l 48.305527 -15.936667 l 48.305527 -17.483333 l f
+n 39.365410 -17.283333 m 39.365410 -17.283333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 48.305527 -17.283333 m 48.305527 -17.283333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 39.165410 -17.283333 m 39.165410 -16.136667 l 48.505527 -16.136667 l 48.505527 -17.283333 l f
+n 39.365410 -16.136667 m 39.365410 -16.136667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 48.305527 -16.136667 m 48.305527 -16.136667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 39.365410 -17.483333 m 48.305527 -17.483333 l s
+n 39.365410 -15.936667 m 48.305527 -15.936667 l s
+n 39.365410 -17.283333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 48.305527 -17.283333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 39.165410 -17.283333 m 39.165410 -16.136667 l s
+n 48.505527 -17.283333 m 48.505527 -16.136667 l s
+n 39.365410 -16.136667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 48.305527 -16.136667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Distancia focal en metros) dup sw 2 div 43.835469 ex sub -16.672667 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.319100 -17.560000 m 36.319100 -15.713333 l 38.604100 -15.713333 l 38.604100 -17.560000 l f
+n 36.319100 -17.260000 m 36.319100 -17.260000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 38.604100 -17.260000 m 38.604100 -17.260000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.019100 -17.260000 m 36.019100 -16.013333 l 38.904100 -16.013333 l 38.904100 -17.260000 l f
+n 36.319100 -16.013333 m 36.319100 -16.013333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 38.604100 -16.013333 m 38.604100 -16.013333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.319100 -17.560000 m 38.604100 -17.560000 l s
+n 36.319100 -15.713333 m 38.604100 -15.713333 l s
+n 36.319100 -17.260000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 38.604100 -17.260000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.019100 -17.260000 m 36.019100 -16.013333 l s
+n 38.904100 -17.260000 m 38.904100 -16.013333 l s
+n 36.319100 -16.013333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 38.604100 -16.013333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(f) 36.319100 -16.599333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 39.401852 -20.512623 m 39.401852 -18.965956 l 59.139384 -18.965956 l 59.139384 -20.512623 l f
+n 39.401852 -20.312623 m 39.401852 -20.312623 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 59.139384 -20.312623 m 59.139384 -20.312623 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 39.201852 -20.312623 m 39.201852 -19.165956 l 59.339384 -19.165956 l 59.339384 -20.312623 l f
+n 39.401852 -19.165956 m 39.401852 -19.165956 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 59.139384 -19.165956 m 59.139384 -19.165956 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 39.401852 -20.512623 m 59.139384 -20.512623 l s
+n 39.401852 -18.965956 m 59.139384 -18.965956 l s
+n 39.401852 -20.312623 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 59.139384 -20.312623 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 39.201852 -20.312623 m 39.201852 -19.165956 l s
+n 59.339384 -20.312623 m 59.339384 -19.165956 l s
+n 39.401852 -19.165956 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 59.139384 -19.165956 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Vector traslación, con la posición del centro de la cámara) dup sw 2 div 49.270618 ex sub -19.701956 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.319100 -20.560000 m 36.319100 -18.713333 l 38.604100 -18.713333 l 38.604100 -20.560000 l f
+n 36.319100 -20.260000 m 36.319100 -20.260000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 38.604100 -20.260000 m 38.604100 -20.260000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.019100 -20.260000 m 36.019100 -19.013333 l 38.904100 -19.013333 l 38.904100 -20.260000 l f
+n 36.319100 -19.013333 m 36.319100 -19.013333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 38.604100 -19.013333 m 38.604100 -19.013333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.319100 -20.560000 m 38.604100 -20.560000 l s
+n 36.319100 -18.713333 m 38.604100 -18.713333 l s
+n 36.319100 -20.260000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 38.604100 -20.260000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.019100 -20.260000 m 36.019100 -19.013333 l s
+n 38.904100 -20.260000 m 38.904100 -19.013333 l s
+n 36.319100 -19.013333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 38.604100 -19.013333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(Tc) 36.319100 -19.599333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 39.463579 -23.489289 m 39.463579 -21.942623 l 64.813696 -21.942623 l 64.813696 -23.489289 l f
+n 39.463579 -23.289289 m 39.463579 -23.289289 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 64.813696 -23.289289 m 64.813696 -23.289289 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 39.263579 -23.289289 m 39.263579 -22.142623 l 65.013696 -22.142623 l 65.013696 -23.289289 l f
+n 39.463579 -22.142623 m 39.463579 -22.142623 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 64.813696 -22.142623 m 64.813696 -22.142623 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 39.463579 -23.489289 m 64.813696 -23.489289 l s
+n 39.463579 -21.942623 m 64.813696 -21.942623 l s
+n 39.463579 -23.289289 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 64.813696 -23.289289 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 39.263579 -23.289289 m 39.263579 -22.142623 l s
+n 65.013696 -23.289289 m 65.013696 -22.142623 l s
+n 39.463579 -22.142623 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 64.813696 -22.142623 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Matriz de rotación, para ir del sistema del mundo al sistema de la camara) dup sw 2 div 52.138637 ex sub -22.678623 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.373544 -23.536667 m 36.373544 -21.690000 l 38.658544 -21.690000 l 38.658544 -23.536667 l f
+n 36.373544 -23.236667 m 36.373544 -23.236667 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 38.658544 -23.236667 m 38.658544 -23.236667 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.073544 -23.236667 m 36.073544 -21.990000 l 38.958544 -21.990000 l 38.958544 -23.236667 l f
+n 36.373544 -21.990000 m 36.373544 -21.990000 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 38.658544 -21.990000 m 38.658544 -21.990000 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.373544 -23.536667 m 38.658544 -23.536667 l s
+n 36.373544 -21.690000 m 38.658544 -21.690000 l s
+n 36.373544 -23.236667 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 38.658544 -23.236667 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.073544 -23.236667 m 36.073544 -21.990000 l s
+n 38.958544 -23.236667 m 38.958544 -21.990000 l s
+n 36.373544 -21.990000 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 38.658544 -21.990000 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(Rc) 36.373544 -22.576000 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.523800 -12.253300 m 36.523800 -10.406633 l 39.446300 -10.406633 l 39.446300 -12.253300 l f
+n 36.523800 -11.953300 m 36.523800 -11.953300 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 39.446300 -11.953300 m 39.446300 -11.953300 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.223800 -11.953300 m 36.223800 -10.706633 l 39.746300 -10.706633 l 39.746300 -11.953300 l f
+n 36.523800 -10.706633 m 36.523800 -10.706633 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 39.446300 -10.706633 m 39.446300 -10.706633 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.523800 -12.253300 m 39.446300 -12.253300 l s
+n 36.523800 -10.406633 m 39.446300 -10.406633 l s
+n 36.523800 -11.953300 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 39.446300 -11.953300 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.223800 -11.953300 m 36.223800 -10.706633 l s
+n 39.746300 -11.953300 m 39.746300 -10.706633 l s
+n 36.523800 -10.706633 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 39.446300 -10.706633 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(t_vista) 36.523800 -11.292633 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 40.287806 -12.203333 m 40.287806 -10.656667 l 68.011981 -10.656667 l 68.011981 -12.203333 l f
+n 40.287806 -12.003333 m 40.287806 -12.003333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 68.011981 -12.003333 m 68.011981 -12.003333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 40.087806 -12.003333 m 40.087806 -10.856667 l 68.211981 -10.856667 l 68.211981 -12.003333 l f
+n 40.287806 -10.856667 m 40.287806 -10.856667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 68.011981 -10.856667 m 68.011981 -10.856667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 40.287806 -12.203333 m 68.011981 -12.203333 l s
+n 40.287806 -10.656667 m 68.011981 -10.656667 l s
+n 40.287806 -12.003333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 68.011981 -12.003333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 40.087806 -12.003333 m 40.087806 -10.856667 l s
+n 68.211981 -12.003333 m 68.211981 -10.856667 l s
+n 40.287806 -10.856667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 68.011981 -10.856667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(tipo de vista utilizada en la cámara \(PERSPECTIVA, ORTOGRAFICA, PANORAMICA\)) dup sw 2 div 54.149894 ex sub -11.392667 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.565000 -9.630000 m 36.565000 -7.783333 l 39.487500 -7.783333 l 39.487500 -9.630000 l f
+n 36.565000 -9.330000 m 36.565000 -9.330000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 39.487500 -9.330000 m 39.487500 -9.330000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.265000 -9.330000 m 36.265000 -8.083333 l 39.787500 -8.083333 l 39.787500 -9.330000 l f
+n 36.565000 -8.083333 m 36.565000 -8.083333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 39.487500 -8.083333 m 39.487500 -8.083333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.565000 -9.630000 m 39.487500 -9.630000 l s
+n 36.565000 -7.783333 m 39.487500 -7.783333 l s
+n 36.565000 -9.330000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 39.487500 -9.330000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.265000 -9.330000 m 36.265000 -8.083333 l s
+n 39.787500 -9.330000 m 39.787500 -8.083333 l s
+n 36.565000 -8.083333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 39.487500 -8.083333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+( shift) 36.565000 -8.669333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 40.570715 -9.480033 m 40.570715 -7.933367 l 62.261785 -7.933367 l 62.261785 -9.480033 l f
+n 40.570715 -9.280033 m 40.570715 -9.280033 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 62.261785 -9.280033 m 62.261785 -9.280033 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 40.370715 -9.280033 m 40.370715 -8.133367 l 62.461785 -8.133367 l 62.461785 -9.280033 l f
+n 40.570715 -8.133367 m 40.570715 -8.133367 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 62.261785 -8.133367 m 62.261785 -8.133367 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 40.570715 -9.480033 m 62.261785 -9.480033 l s
+n 40.570715 -7.933367 m 62.261785 -7.933367 l s
+n 40.570715 -9.280033 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 62.261785 -9.280033 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 40.370715 -9.280033 m 40.370715 -8.133367 l s
+n 62.461785 -9.280033 m 62.461785 -8.133367 l s
+n 40.570715 -8.133367 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 62.261785 -8.133367 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+([shift_x, shift_y] corrimiento del centro de la camara en pixeles) dup sw 2 div 51.416250 ex sub -8.669367 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.585000 -6.906700 m 36.585000 -5.060033 l 39.767500 -5.060033 l 39.767500 -6.906700 l f
+n 36.585000 -6.606700 m 36.585000 -6.606700 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 39.767500 -6.606700 m 39.767500 -6.606700 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.285000 -6.606700 m 36.285000 -5.360033 l 40.067500 -5.360033 l 40.067500 -6.606700 l f
+n 36.585000 -5.360033 m 36.585000 -5.360033 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 39.767500 -5.360033 m 39.767500 -5.360033 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.585000 -6.906700 m 39.767500 -6.906700 l s
+n 36.585000 -5.060033 m 39.767500 -5.060033 l s
+n 36.585000 -6.606700 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 39.767500 -6.606700 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.285000 -6.606700 m 36.285000 -5.360033 l s
+n 40.067500 -6.606700 m 40.067500 -5.360033 l s
+n 36.585000 -5.360033 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 39.767500 -5.360033 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+( sensor) 36.585000 -5.946033 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 40.890787 -6.930033 m 40.890787 -5.383367 l 61.519000 -5.383367 l 61.519000 -6.930033 l f
+n 40.890787 -6.730033 m 40.890787 -6.730033 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 61.519000 -6.730033 m 61.519000 -6.730033 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 40.690787 -6.730033 m 40.690787 -5.583367 l 61.719000 -5.583367 l 61.719000 -6.730033 l f
+n 40.890787 -5.583367 m 40.890787 -5.583367 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 61.519000 -5.583367 m 61.519000 -5.583367 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 40.890787 -6.930033 m 61.519000 -6.930033 l s
+n 40.890787 -5.383367 m 61.519000 -5.383367 l s
+n 40.890787 -6.730033 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 61.519000 -6.730033 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 40.690787 -6.730033 m 40.690787 -5.583367 l s
+n 61.719000 -6.730033 m 61.719000 -5.583367 l s
+n 40.890787 -5.583367 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 61.519000 -5.583367 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+([sensor_x, sensor_y] largo y ancho del sensor en milímetros) dup sw 2 div 51.204894 ex sub -6.119367 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.517500 -4.660000 m 36.517500 -2.813333 l 40.865000 -2.813333 l 40.865000 -4.660000 l f
+n 36.517500 -4.360000 m 36.517500 -4.360000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 40.865000 -4.360000 m 40.865000 -4.360000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.217500 -4.360000 m 36.217500 -3.113333 l 41.165000 -3.113333 l 41.165000 -4.360000 l f
+n 36.517500 -3.113333 m 36.517500 -3.113333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 40.865000 -3.113333 m 40.865000 -3.113333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.517500 -4.660000 m 40.865000 -4.660000 l s
+n 36.517500 -2.813333 m 40.865000 -2.813333 l s
+n 36.517500 -4.360000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 40.865000 -4.360000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.217500 -4.360000 m 36.217500 -3.113333 l s
+n 41.165000 -4.360000 m 41.165000 -3.113333 l s
+n 36.517500 -3.113333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 40.865000 -3.113333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+( sensor_fit) 36.517500 -3.699333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 41.865906 -4.610033 m 41.865906 -3.063367 l 66.096544 -3.063367 l 66.096544 -4.610033 l f
+n 41.865906 -4.410033 m 41.865906 -4.410033 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 66.096544 -4.410033 m 66.096544 -4.410033 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 41.665906 -4.410033 m 41.665906 -3.263367 l 66.296544 -3.263367 l 66.296544 -4.410033 l f
+n 41.865906 -3.263367 m 41.865906 -3.263367 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 66.096544 -3.263367 m 66.096544 -3.263367 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 41.865906 -4.610033 m 66.096544 -4.610033 l s
+n 41.865906 -3.063367 m 66.096544 -3.063367 l s
+n 41.865906 -4.410033 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 66.096544 -4.410033 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 41.665906 -4.410033 m 41.665906 -3.263367 l s
+n 66.296544 -4.410033 m 66.296544 -3.263367 l s
+n 41.865906 -3.263367 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 66.096544 -3.263367 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(tipo de ajuste utilizado para el sensor \(AUTO, HORIZONTAL, VERTICAL\)) dup sw 2 div 53.981225 ex sub -3.799367 m
+ gs 1 -1 sc sh gr
+/Helvetica-latin1 ff 0.592667 scf sf
+1.000000 0.647059 0.000000 srgb
+n 42.783921 -2.303333 m 42.783921 -0.756667 l 64.238916 -0.756667 l 64.238916 -2.303333 l f
+n 42.783921 -2.103333 m 42.783921 -2.103333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 64.238916 -2.103333 m 64.238916 -2.103333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 42.583921 -2.103333 m 42.583921 -0.956667 l 64.438916 -0.956667 l 64.438916 -2.103333 l f
+n 42.783921 -0.956667 m 42.783921 -0.956667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 64.238916 -0.956667 m 64.238916 -0.956667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 42.783921 -2.303333 m 64.238916 -2.303333 l s
+n 42.783921 -0.756667 m 64.238916 -0.756667 l s
+n 42.783921 -2.103333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 64.238916 -2.103333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 42.583921 -2.103333 m 42.583921 -0.956667 l s
+n 64.438916 -2.103333 m 64.438916 -0.956667 l s
+n 42.783921 -0.956667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 64.238916 -0.956667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(\(pixel_aspect_x\)/\(pixel_aspect_y\) valor 1 indica pixel cuadrado) dup sw 2 div 53.511419 ex sub -1.492667 m
+ gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 36.635000 -2.380000 m 36.635000 -0.533333 l 41.765000 -0.533333 l 41.765000 -2.380000 l f
+n 36.635000 -2.080000 m 36.635000 -2.080000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 41.765000 -2.080000 m 41.765000 -2.080000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 36.335000 -2.080000 m 36.335000 -0.833333 l 42.065000 -0.833333 l 42.065000 -2.080000 l f
+n 36.635000 -0.833333 m 36.635000 -0.833333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 41.765000 -0.833333 m 41.765000 -0.833333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.635000 -2.380000 m 41.765000 -2.380000 l s
+n 36.635000 -0.533333 m 41.765000 -0.533333 l s
+n 36.635000 -2.080000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 41.765000 -2.080000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 36.335000 -2.080000 m 36.335000 -0.833333 l s
+n 42.065000 -2.080000 m 42.065000 -0.833333 l s
+n 36.635000 -0.833333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 41.765000 -0.833333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(pixel_aspect) 36.635000 -1.419333 m
+ gs 1 -1 sc sh gr
+0.988235 0.435294 0.270588 srgb
+n 4.757200 -43.351700 m 4.757200 -41.305033 l 8.832200 -41.305033 l 8.832200 -43.351700 l f
+n 4.757200 -43.051700 m 4.757200 -43.051700 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 8.832200 -43.051700 m 8.832200 -43.051700 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 4.457200 -43.051700 m 4.457200 -41.605033 l 9.132200 -41.605033 l 9.132200 -43.051700 l f
+n 4.757200 -41.605033 m 4.757200 -41.605033 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 8.832200 -41.605033 m 8.832200 -41.605033 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 4.757200 -43.351700 m 8.832200 -43.351700 l s
+n 4.757200 -41.305033 m 8.832200 -41.305033 l s
+n 4.757200 -43.051700 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 8.832200 -43.051700 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 4.457200 -43.051700 m 4.457200 -41.605033 l s
+n 9.132200 -43.051700 m 9.132200 -41.605033 l s
+n 4.757200 -41.605033 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 8.832200 -41.605033 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(n_frames) dup sw 2 div 6.794700 ex sub -42.291033 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 9.974630 -43.253300 m 9.974630 -41.706633 l 25.193104 -41.706633 l 25.193104 -43.253300 l f
+n 9.974630 -43.053300 m 9.974630 -43.053300 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 25.193104 -43.053300 m 25.193104 -43.053300 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 9.774630 -43.053300 m 9.774630 -41.906633 l 25.393104 -41.906633 l 25.393104 -43.053300 l f
+n 9.974630 -41.906633 m 9.974630 -41.906633 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 25.193104 -41.906633 m 25.193104 -41.906633 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 9.974630 -43.253300 m 25.193104 -43.253300 l s
+n 9.974630 -41.706633 m 25.193104 -41.706633 l s
+n 9.974630 -43.053300 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 25.193104 -43.053300 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 9.774630 -43.053300 m 9.774630 -41.906633 l s
+n 25.393104 -43.053300 m 25.393104 -41.906633 l s
+n 9.974630 -41.906633 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 25.193104 -41.906633 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(número de frames en la estructura skeleton) dup sw 2 div 17.583867 ex sub -42.442633 m
+ gs 1 -1 sc sh gr
+0.988235 0.435294 0.270588 srgb
+n 4.701200 -40.780000 m 4.701200 -38.733333 l 8.073700 -38.733333 l 8.073700 -40.780000 l f
+n 4.701200 -40.480000 m 4.701200 -40.480000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 8.073700 -40.480000 m 8.073700 -40.480000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 4.401200 -40.480000 m 4.401200 -39.033333 l 8.373700 -39.033333 l 8.373700 -40.480000 l f
+n 4.701200 -39.033333 m 4.701200 -39.033333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 8.073700 -39.033333 m 8.073700 -39.033333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 4.701200 -40.780000 m 8.073700 -40.780000 l s
+n 4.701200 -38.733333 m 8.073700 -38.733333 l s
+n 4.701200 -40.480000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 8.073700 -40.480000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 4.401200 -40.480000 m 4.401200 -39.033333 l s
+n 8.373700 -40.480000 m 8.373700 -39.033333 l s
+n 4.701200 -39.033333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 8.073700 -39.033333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(n_paths) dup sw 2 div 6.387450 ex sub -39.719333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 9.182530 -40.581600 m 9.182530 -39.034933 l 26.101004 -39.034933 l 26.101004 -40.581600 l f
+n 9.182530 -40.381600 m 9.182530 -40.381600 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 26.101004 -40.381600 m 26.101004 -40.381600 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 8.982530 -40.381600 m 8.982530 -39.234933 l 26.301004 -39.234933 l 26.301004 -40.381600 l f
+n 9.182530 -39.234933 m 9.182530 -39.234933 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 26.101004 -39.234933 m 26.101004 -39.234933 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 9.182530 -40.581600 m 26.101004 -40.581600 l s
+n 9.182530 -39.034933 m 26.101004 -39.034933 l s
+n 9.182530 -40.381600 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 26.101004 -40.381600 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 8.982530 -40.381600 m 8.982530 -39.234933 l s
+n 26.301004 -40.381600 m 26.301004 -39.234933 l s
+n 9.182530 -39.234933 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 26.101004 -39.234933 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(número de trayectorias en la estructura skeleton) dup sw 2 div 17.641767 ex sub -39.770933 m
+ gs 1 -1 sc sh gr
+0.980392 0.917647 0.690196 srgb
+n 41.915000 -43.480000 m 41.915000 -41.433333 l 45.990000 -41.433333 l 45.990000 -43.480000 l f
+n 41.915000 -43.180000 m 41.915000 -43.180000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 45.990000 -43.180000 m 45.990000 -43.180000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 41.615000 -43.180000 m 41.615000 -41.733333 l 46.290000 -41.733333 l 46.290000 -43.180000 l f
+n 41.915000 -41.733333 m 41.915000 -41.733333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 45.990000 -41.733333 m 45.990000 -41.733333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 41.915000 -43.480000 m 45.990000 -43.480000 l s
+n 41.915000 -41.433333 m 45.990000 -41.433333 l s
+n 41.915000 -43.180000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 45.990000 -43.180000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 41.615000 -43.180000 m 41.615000 -41.733333 l s
+n 46.290000 -43.180000 m 46.290000 -41.733333 l s
+n 41.915000 -41.733333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 45.990000 -41.733333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(n_frames) dup sw 2 div 43.952500 ex sub -42.419333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 46.997700 -43.331600 m 46.997700 -41.784933 l 61.385825 -41.784933 l 61.385825 -43.331600 l f
+n 46.997700 -43.131600 m 46.997700 -43.131600 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 61.385825 -43.131600 m 61.385825 -43.131600 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 46.797700 -43.131600 m 46.797700 -41.984933 l 61.585825 -41.984933 l 61.585825 -43.131600 l f
+n 46.997700 -41.984933 m 46.997700 -41.984933 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 61.385825 -41.984933 m 61.385825 -41.984933 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 46.997700 -43.331600 m 61.385825 -43.331600 l s
+n 46.997700 -41.784933 m 61.385825 -41.784933 l s
+n 46.997700 -43.131600 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 61.385825 -43.131600 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 46.797700 -43.131600 m 46.797700 -41.984933 l s
+n 61.585825 -43.131600 m 61.585825 -41.984933 l s
+n 46.997700 -41.984933 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 61.385825 -41.984933 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(número de frames en la estructura cam) dup sw 2 div 54.191763 ex sub -42.520933 m
+ gs 1 -1 sc sh gr
+0.980392 0.917647 0.690196 srgb
+n 41.859100 -40.908300 m 41.859100 -38.861633 l 45.231600 -38.861633 l 45.231600 -40.908300 l f
+n 41.859100 -40.608300 m 41.859100 -40.608300 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 45.231600 -40.608300 m 45.231600 -40.608300 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 41.559100 -40.608300 m 41.559100 -39.161633 l 45.531600 -39.161633 l 45.531600 -40.608300 l f
+n 41.859100 -39.161633 m 41.859100 -39.161633 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 45.231600 -39.161633 m 45.231600 -39.161633 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 41.859100 -40.908300 m 45.231600 -40.908300 l s
+n 41.859100 -38.861633 m 45.231600 -38.861633 l s
+n 41.859100 -40.608300 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 45.231600 -40.608300 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 41.559100 -40.608300 m 41.559100 -39.161633 l s
+n 45.531600 -40.608300 m 45.531600 -39.161633 l s
+n 41.859100 -39.161633 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 45.231600 -39.161633 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(n_paths) dup sw 2 div 43.545350 ex sub -39.847633 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 46.250500 -40.860000 m 46.250500 -39.313333 l 62.248625 -39.313333 l 62.248625 -40.860000 l f
+n 46.250500 -40.660000 m 46.250500 -40.660000 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 62.248625 -40.660000 m 62.248625 -40.660000 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 46.050500 -40.660000 m 46.050500 -39.513333 l 62.448625 -39.513333 l 62.448625 -40.660000 l f
+n 46.250500 -39.513333 m 46.250500 -39.513333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 62.248625 -39.513333 m 62.248625 -39.513333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 46.250500 -40.860000 m 62.248625 -40.860000 l s
+n 46.250500 -39.313333 m 62.248625 -39.313333 l s
+n 46.250500 -40.660000 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 62.248625 -40.660000 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 46.050500 -40.660000 m 46.050500 -39.513333 l s
+n 62.448625 -40.660000 m 62.448625 -39.513333 l s
+n 46.250500 -39.513333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 62.248625 -39.513333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(número de trayectorias en la estructura cam) dup sw 2 div 54.249563 ex sub -40.049333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 12.646937 11.317377 m 12.646937 12.864044 l 26.644789 12.864044 l 26.644789 11.317377 l f
+n 12.646937 11.517377 m 12.646937 11.517377 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 26.644789 11.517377 m 26.644789 11.517377 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 12.446937 11.517377 m 12.446937 12.664044 l 26.844789 12.664044 l 26.844789 11.517377 l f
+n 12.646937 12.664044 m 12.646937 12.664044 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 26.644789 12.664044 m 26.644789 12.664044 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 12.646937 11.317377 m 26.644789 11.317377 l s
+n 12.646937 12.864044 m 26.644789 12.864044 l s
+n 12.646937 11.517377 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 26.644789 11.517377 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 12.446937 11.517377 m 12.446937 12.664044 l s
+n 26.844789 11.517377 m 26.844789 12.664044 l s
+n 12.646937 12.664044 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 26.644789 12.664044 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(número de marcadores en la trayectoria) dup sw 2 div 19.645863 ex sub 12.128044 m
+ gs 1 -1 sc sh gr
+0.784314 0.592157 0.592157 srgb
+n 6.615000 11.120000 m 6.615000 12.966667 l 11.359312 12.966667 l 11.359312 11.120000 l f
+n 6.615000 11.420000 m 6.615000 11.420000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 11.359312 11.420000 m 11.359312 11.420000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 6.315000 11.420000 m 6.315000 12.666667 l 11.659312 12.666667 l 11.659312 11.420000 l f
+n 6.615000 12.666667 m 6.615000 12.666667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 11.359312 12.666667 m 11.359312 12.666667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.615000 11.120000 m 11.359312 11.120000 l s
+n 6.615000 12.966667 m 11.359312 12.966667 l s
+n 6.615000 11.420000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 11.359312 11.420000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 6.315000 11.420000 m 6.315000 12.666667 l s
+n 11.659312 11.420000 m 11.659312 12.666667 l s
+n 6.615000 12.666667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 11.359312 12.666667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(n_markers) 6.615000 12.080667 m
+ gs 1 -1 sc sh gr
+0.988235 0.435294 0.270588 srgb
+n 4.415000 -54.480000 m 4.415000 -52.433333 l 7.120000 -52.433333 l 7.120000 -54.480000 l f
+n 4.415000 -54.180000 m 4.415000 -54.180000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 7.120000 -54.180000 m 7.120000 -54.180000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 4.115000 -54.180000 m 4.115000 -52.733333 l 7.420000 -52.733333 l 7.420000 -54.180000 l f
+n 4.415000 -52.733333 m 4.415000 -52.733333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 7.120000 -52.733333 m 7.120000 -52.733333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 4.415000 -54.480000 m 7.120000 -54.480000 l s
+n 4.415000 -52.433333 m 7.120000 -52.433333 l s
+n 4.415000 -54.180000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 7.120000 -54.180000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 4.115000 -54.180000 m 4.115000 -52.733333 l s
+n 7.420000 -54.180000 m 7.420000 -52.733333 l s
+n 4.415000 -52.733333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 7.120000 -52.733333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(name) dup sw 2 div 5.767500 ex sub -53.419333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 7.934010 -54.281600 m 7.934010 -52.734933 l 18.604127 -52.734933 l 18.604127 -54.281600 l f
+n 7.934010 -54.081600 m 7.934010 -54.081600 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 18.604127 -54.081600 m 18.604127 -54.081600 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 7.734010 -54.081600 m 7.734010 -52.934933 l 18.804127 -52.934933 l 18.804127 -54.081600 l f
+n 7.934010 -52.934933 m 7.934010 -52.934933 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 18.604127 -52.934933 m 18.604127 -52.934933 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 7.934010 -54.281600 m 18.604127 -54.281600 l s
+n 7.934010 -52.734933 m 18.604127 -52.734933 l s
+n 7.934010 -54.081600 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 18.604127 -54.081600 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 7.734010 -54.081600 m 7.734010 -52.934933 l s
+n 18.804127 -54.081600 m 18.804127 -52.934933 l s
+n 7.934010 -52.934933 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 18.604127 -52.934933 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(string nombre de la estructura) dup sw 2 div 13.269069 ex sub -53.470933 m
+ gs 1 -1 sc sh gr
+0.980392 0.917647 0.690196 srgb
+n 41.965000 -38.230000 m 41.965000 -36.183333 l 46.732500 -36.183333 l 46.732500 -38.230000 l f
+n 41.965000 -37.930000 m 41.965000 -37.930000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 46.732500 -37.930000 m 46.732500 -37.930000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 41.665000 -37.930000 m 41.665000 -36.483333 l 47.032500 -36.483333 l 47.032500 -37.930000 l f
+n 41.965000 -36.483333 m 41.965000 -36.483333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 46.732500 -36.483333 m 46.732500 -36.483333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 41.965000 -38.230000 m 46.732500 -38.230000 l s
+n 41.965000 -36.183333 m 46.732500 -36.183333 l s
+n 41.965000 -37.930000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 46.732500 -37.930000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 41.665000 -37.930000 m 41.665000 -36.483333 l s
+n 47.032500 -37.930000 m 47.032500 -36.483333 l s
+n 41.965000 -36.483333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 46.732500 -36.483333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(frame_rate) dup sw 2 div 44.348750 ex sub -37.169333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 47.560300 -37.981600 m 47.560300 -36.434933 l 54.817917 -36.434933 l 54.817917 -37.981600 l f
+n 47.560300 -37.781600 m 47.560300 -37.781600 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 54.817917 -37.781600 m 54.817917 -37.781600 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 47.360300 -37.781600 m 47.360300 -36.634933 l 55.017917 -36.634933 l 55.017917 -37.781600 l f
+n 47.560300 -36.634933 m 47.560300 -36.634933 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 54.817917 -36.634933 m 54.817917 -36.634933 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 47.560300 -37.981600 m 54.817917 -37.981600 l s
+n 47.560300 -36.434933 m 54.817917 -36.434933 l s
+n 47.560300 -37.781600 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 54.817917 -37.781600 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 47.360300 -37.781600 m 47.360300 -36.634933 l s
+n 55.017917 -37.781600 m 55.017917 -36.634933 l s
+n 47.560300 -36.634933 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 54.817917 -36.634933 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(tiempo entre frames) dup sw 2 div 51.189109 ex sub -37.170933 m
+ gs 1 -1 sc sh gr
+0.980392 0.917647 0.690196 srgb
+n 41.925800 -54.230000 m 41.925800 -52.183333 l 44.630800 -52.183333 l 44.630800 -54.230000 l f
+n 41.925800 -53.930000 m 41.925800 -53.930000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 44.630800 -53.930000 m 44.630800 -53.930000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 41.625800 -53.930000 m 41.625800 -52.483333 l 44.930800 -52.483333 l 44.930800 -53.930000 l f
+n 41.925800 -52.483333 m 41.925800 -52.483333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 44.630800 -52.483333 m 44.630800 -52.483333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 41.925800 -54.230000 m 44.630800 -54.230000 l s
+n 41.925800 -52.183333 m 44.630800 -52.183333 l s
+n 41.925800 -53.930000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 44.630800 -53.930000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 41.625800 -53.930000 m 41.625800 -52.483333 l s
+n 44.930800 -53.930000 m 44.930800 -52.483333 l s
+n 41.925800 -52.483333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 44.630800 -52.483333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(name) dup sw 2 div 43.278300 ex sub -53.169333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 45.548700 -53.853300 m 45.548700 -52.306633 l 55.898817 -52.306633 l 55.898817 -53.853300 l f
+n 45.548700 -53.653300 m 45.548700 -53.653300 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 55.898817 -53.653300 m 55.898817 -53.653300 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 45.348700 -53.653300 m 45.348700 -52.506633 l 56.098817 -52.506633 l 56.098817 -53.653300 l f
+n 45.548700 -52.506633 m 45.548700 -52.506633 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 55.898817 -52.506633 m 55.898817 -52.506633 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 45.548700 -53.853300 m 55.898817 -53.853300 l s
+n 45.548700 -52.306633 m 55.898817 -52.306633 l s
+n 45.548700 -53.653300 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 55.898817 -53.653300 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 45.348700 -53.653300 m 45.348700 -52.506633 l s
+n 56.098817 -53.653300 m 56.098817 -52.506633 l s
+n 45.548700 -52.506633 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 55.898817 -52.506633 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(número asociado a la camara) dup sw 2 div 50.723759 ex sub -53.042633 m
+ gs 1 -1 sc sh gr
+0.988235 0.435294 0.270588 srgb
+n 4.757400 -38.053300 m 4.757400 -36.206633 l 8.129900 -36.206633 l 8.129900 -38.053300 l f
+n 4.757400 -37.753300 m 4.757400 -37.753300 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 8.129900 -37.753300 m 8.129900 -37.753300 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 4.457400 -37.753300 m 4.457400 -36.506633 l 8.429900 -36.506633 l 8.429900 -37.753300 l f
+n 4.757400 -36.506633 m 4.757400 -36.506633 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 8.129900 -36.506633 m 8.129900 -36.506633 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 4.757400 -38.053300 m 8.129900 -38.053300 l s
+n 4.757400 -36.206633 m 8.129900 -36.206633 l s
+n 4.757400 -37.753300 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 8.129900 -37.753300 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 4.457400 -37.753300 m 4.457400 -36.506633 l s
+n 8.429900 -37.753300 m 8.429900 -36.506633 l s
+n 4.757400 -36.506633 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 8.129900 -36.506633 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(n_cams) dup sw 2 div 6.443650 ex sub -37.092633 m
+ gs 1 -1 sc sh gr
+0.988235 0.435294 0.270588 srgb
+n 4.784600 -35.530000 m 4.784600 -33.483333 l 9.552100 -33.483333 l 9.552100 -35.530000 l f
+n 4.784600 -35.230000 m 4.784600 -35.230000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 9.552100 -35.230000 m 9.552100 -35.230000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 4.484600 -35.230000 m 4.484600 -33.783333 l 9.852100 -33.783333 l 9.852100 -35.230000 l f
+n 4.784600 -33.783333 m 4.784600 -33.783333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 9.552100 -33.783333 m 9.552100 -33.783333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 4.784600 -35.530000 m 9.552100 -35.530000 l s
+n 4.784600 -33.483333 m 9.552100 -33.483333 l s
+n 4.784600 -35.230000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 9.552100 -35.230000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 4.484600 -35.230000 m 4.484600 -33.783333 l s
+n 9.852100 -35.230000 m 9.852100 -33.783333 l s
+n 4.784600 -33.783333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 9.552100 -33.783333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(frame_rate) dup sw 2 div 7.168350 ex sub -34.469333 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 10.379800 -35.281600 m 10.379800 -33.734933 l 17.637417 -33.734933 l 17.637417 -35.281600 l f
+n 10.379800 -35.081600 m 10.379800 -35.081600 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 17.637417 -35.081600 m 17.637417 -35.081600 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 10.179800 -35.081600 m 10.179800 -33.934933 l 17.837417 -33.934933 l 17.837417 -35.081600 l f
+n 10.379800 -33.934933 m 10.379800 -33.934933 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 17.637417 -33.934933 m 17.637417 -33.934933 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 10.379800 -35.281600 m 17.637417 -35.281600 l s
+n 10.379800 -33.734933 m 17.637417 -33.734933 l s
+n 10.379800 -35.081600 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 17.637417 -35.081600 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 10.179800 -35.081600 m 10.179800 -33.934933 l s
+n 17.837417 -35.081600 m 17.837417 -33.934933 l s
+n 10.379800 -33.934933 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 17.637417 -33.934933 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(tiempo entre frames) dup sw 2 div 14.008609 ex sub -34.470933 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 8.851610 -38.003300 m 8.851610 -36.456633 l 23.536727 -36.456633 l 23.536727 -38.003300 l f
+n 8.851610 -37.803300 m 8.851610 -37.803300 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 23.536727 -37.803300 m 23.536727 -37.803300 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 8.651610 -37.803300 m 8.651610 -36.656633 l 23.736727 -36.656633 l 23.736727 -37.803300 l f
+n 8.851610 -36.656633 m 8.851610 -36.656633 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 23.536727 -36.656633 m 23.536727 -36.656633 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 8.851610 -38.003300 m 23.536727 -38.003300 l s
+n 8.851610 -36.456633 m 23.536727 -36.456633 l s
+n 8.851610 -37.803300 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 23.536727 -37.803300 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 8.651610 -37.803300 m 8.651610 -36.656633 l s
+n 23.736727 -37.803300 m 23.736727 -36.656633 l s
+n 8.851610 -36.656633 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 23.536727 -36.656633 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(número de cámaras que lo están filmando) dup sw 2 div 16.194169 ex sub -37.192633 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 12.313600 14.096667 m 12.313600 15.643333 l 22.606100 15.643333 l 22.606100 14.096667 l f
+n 12.313600 14.296667 m 12.313600 14.296667 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 22.606100 14.296667 m 22.606100 14.296667 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 12.113600 14.296667 m 12.113600 15.443333 l 22.806100 15.443333 l 22.806100 14.296667 l f
+n 12.313600 15.443333 m 12.313600 15.443333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 22.606100 15.443333 m 22.606100 15.443333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 12.313600 14.096667 m 22.606100 14.096667 l s
+n 12.313600 15.643333 m 22.606100 15.643333 l s
+n 12.313600 14.296667 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 22.606100 14.296667 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 12.113600 14.296667 m 12.113600 15.443333 l s
+n 22.806100 14.296667 m 22.806100 15.443333 l s
+n 12.313600 15.443333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 22.606100 15.443333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(frame inicial de la trayectoria) dup sw 2 div 17.459850 ex sub 14.907333 m
+ gs 1 -1 sc sh gr
+0.784314 0.592157 0.592157 srgb
+n 6.665000 14.070000 m 6.665000 15.916667 l 11.409312 15.916667 l 11.409312 14.070000 l f
+n 6.665000 14.370000 m 6.665000 14.370000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 11.409312 14.370000 m 11.409312 14.370000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 6.365000 14.370000 m 6.365000 15.616667 l 11.709312 15.616667 l 11.709312 14.370000 l f
+n 6.665000 15.616667 m 6.665000 15.616667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 11.409312 15.616667 m 11.409312 15.616667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.665000 14.070000 m 11.409312 14.070000 l s
+n 6.665000 15.916667 m 11.409312 15.916667 l s
+n 6.665000 14.370000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 11.409312 14.370000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 6.365000 14.370000 m 6.365000 15.616667 l s
+n 11.709312 14.370000 m 11.709312 15.616667 l s
+n 6.665000 15.616667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 11.409312 15.616667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(init_frame) 6.665000 15.030667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 12.251100 16.916667 m 12.251100 18.463333 l 22.721100 18.463333 l 22.721100 16.916667 l f
+n 12.251100 17.116667 m 12.251100 17.116667 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 22.721100 17.116667 m 22.721100 17.116667 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 12.051100 17.116667 m 12.051100 18.263333 l 22.921100 18.263333 l 22.921100 17.116667 l f
+n 12.251100 18.263333 m 12.251100 18.263333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 22.721100 18.263333 m 22.721100 18.263333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 12.251100 16.916667 m 22.721100 16.916667 l s
+n 12.251100 18.463333 m 22.721100 18.463333 l s
+n 12.251100 17.116667 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 22.721100 17.116667 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 12.051100 17.116667 m 12.051100 18.263333 l s
+n 22.921100 17.116667 m 22.921100 18.263333 l s
+n 12.251100 18.263333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 22.721100 18.263333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(último frame en la trayectoria) dup sw 2 div 17.486100 ex sub 17.727333 m
+ gs 1 -1 sc sh gr
+0.784314 0.592157 0.592157 srgb
+n 6.730000 16.790000 m 6.730000 18.636667 l 11.474312 18.636667 l 11.474312 16.790000 l f
+n 6.730000 17.090000 m 6.730000 17.090000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 11.474312 17.090000 m 11.474312 17.090000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 6.430000 17.090000 m 6.430000 18.336667 l 11.774312 18.336667 l 11.774312 17.090000 l f
+n 6.730000 18.336667 m 6.730000 18.336667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 11.474312 18.336667 m 11.474312 18.336667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.730000 16.790000 m 11.474312 16.790000 l s
+n 6.730000 18.636667 m 11.474312 18.636667 l s
+n 6.730000 17.090000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 11.474312 17.090000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 6.430000 17.090000 m 6.430000 18.336667 l s
+n 11.774312 17.090000 m 11.774312 18.336667 l s
+n 6.730000 18.336667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 11.474312 18.336667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(end_frame) 6.730000 17.750667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 32.760704 3.338088 m 32.760704 4.884755 l 65.266651 4.884755 l 65.266651 3.338088 l f
+n 32.760704 3.538088 m 32.760704 3.538088 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 65.266651 3.538088 m 65.266651 3.538088 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 32.560704 3.538088 m 32.560704 4.684755 l 65.466651 4.684755 l 65.466651 3.538088 l f
+n 32.760704 4.684755 m 32.760704 4.684755 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 65.266651 4.684755 m 65.266651 4.684755 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 32.760704 3.338088 m 65.266651 3.338088 l s
+n 32.760704 4.884755 m 65.266651 4.884755 l s
+n 32.760704 3.538088 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 65.266651 3.538088 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 32.560704 3.538088 m 32.560704 4.684755 l s
+n 65.466651 3.538088 m 65.466651 4.684755 l s
+n 32.760704 4.684755 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 65.266651 4.684755 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura que contiene la información sobre las proyecciones del marcador en otras camaras ) dup sw 2 div 49.013677 ex sub 4.148755 m
+ gs 1 -1 sc sh gr
+0.235294 0.752941 0.921569 srgb
+n 30.165000 3.220000 m 30.165000 5.066667 l 31.921812 5.066667 l 31.921812 3.220000 l f
+n 30.165000 3.520000 m 30.165000 3.520000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 31.921812 3.520000 m 31.921812 3.520000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 29.865000 3.520000 m 29.865000 4.766667 l 32.221812 4.766667 l 32.221812 3.520000 l f
+n 30.165000 4.766667 m 30.165000 4.766667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 31.921812 4.766667 m 31.921812 4.766667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 30.165000 3.220000 m 31.921812 3.220000 l s
+n 30.165000 5.066667 m 31.921812 5.066667 l s
+n 30.165000 3.520000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 31.921812 3.520000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 29.865000 3.520000 m 29.865000 4.766667 l s
+n 32.221812 3.520000 m 32.221812 4.766667 l s
+n 30.165000 4.766667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 31.921812 4.766667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(like) 30.165000 4.180667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 37.619630 5.746667 m 37.619630 7.293333 l 60.354982 7.293333 l 60.354982 5.746667 l f
+n 37.619630 5.946667 m 37.619630 5.946667 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 60.354982 5.946667 m 60.354982 5.946667 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 37.419630 5.946667 m 37.419630 7.093333 l 60.554982 7.093333 l 60.554982 5.946667 l f
+n 37.619630 7.093333 m 37.619630 7.093333 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 60.354982 7.093333 m 60.354982 7.093333 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 37.619630 5.746667 m 60.354982 5.746667 l s
+n 37.619630 7.293333 m 60.354982 7.293333 l s
+n 37.619630 5.946667 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 60.354982 5.946667 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 37.419630 5.946667 m 37.419630 7.093333 l s
+n 60.554982 5.946667 m 60.554982 7.093333 l s
+n 37.619630 7.093333 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 60.354982 7.093333 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(vector con los nombres de las camaras sobre las que se proyecta ) dup sw 2 div 48.987306 ex sub 6.557333 m
+ gs 1 -1 sc sh gr
+0.235294 0.752941 0.921569 srgb
+n 32.365000 5.770000 m 32.365000 7.616667 l 36.426812 7.616667 l 36.426812 5.770000 l f
+n 32.365000 6.070000 m 32.365000 6.070000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 36.426812 6.070000 m 36.426812 6.070000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 32.065000 6.070000 m 32.065000 7.316667 l 36.726812 7.316667 l 36.726812 6.070000 l f
+n 32.365000 7.316667 m 32.365000 7.316667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 36.426812 7.316667 m 36.426812 7.316667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 32.365000 5.770000 m 36.426812 5.770000 l s
+n 32.365000 7.616667 m 36.426812 7.616667 l s
+n 32.365000 6.070000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 36.426812 6.070000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 32.065000 6.070000 m 32.065000 7.316667 l s
+n 36.726812 6.070000 m 36.726812 7.316667 l s
+n 32.365000 7.316667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 36.426812 7.316667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(like_cams) 32.365000 6.730667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 39.336392 7.573333 m 39.336392 9.966667 l 74.205435 9.966667 l 74.205435 7.573333 l f
+n 39.336392 7.773333 m 39.336392 7.773333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 74.205435 7.773333 m 74.205435 7.773333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 39.136392 7.773333 m 39.136392 9.766667 l 74.405435 9.766667 l 74.405435 7.773333 l f
+n 39.336392 9.766667 m 39.336392 9.766667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 74.205435 9.766667 m 74.205435 9.766667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 39.336392 7.573333 m 74.205435 7.573333 l s
+n 39.336392 9.966667 m 74.205435 9.966667 l s
+n 39.336392 7.773333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 74.205435 7.773333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 39.136392 7.773333 m 39.136392 9.766667 l s
+n 74.405435 7.773333 m 74.405435 9.766667 l s
+n 39.336392 9.766667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 74.205435 9.766667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(tabla de mapeo. Matriz cuyas filas son indices de marcadores que se corresponden en otras camaras,) dup sw 2 div 56.770913 ex sub 8.384000 m
+ gs 1 -1 sc sh gr
+( y las columnas son camaras cuyo nombre se encuentra en la columna correspondiente de like_cams) dup sw 2 div 56.770913 ex sub 9.230667 m
+ gs 1 -1 sc sh gr
+0.235294 0.752941 0.921569 srgb
+n 32.563400 7.970000 m 32.563400 9.816667 l 38.593400 9.816667 l 38.593400 7.970000 l f
+n 32.563400 8.270000 m 32.563400 8.270000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 38.593400 8.270000 m 38.593400 8.270000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 32.263400 8.270000 m 32.263400 9.516667 l 38.893400 9.516667 l 38.893400 8.270000 l f
+n 32.563400 9.516667 m 32.563400 9.516667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 38.593400 9.516667 m 38.593400 9.516667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 32.563400 7.970000 m 38.593400 7.970000 l s
+n 32.563400 9.816667 m 38.593400 9.816667 l s
+n 32.563400 8.270000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 38.593400 8.270000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 32.263400 8.270000 m 32.263400 9.516667 l s
+n 38.893400 8.270000 m 38.893400 9.516667 l s
+n 32.563400 9.516667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 38.593400 9.516667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(mapping_table) 32.563400 8.930667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 36.984349 10.445956 m 36.984349 11.992623 l 70.001966 11.992623 l 70.001966 10.445956 l f
+n 36.984349 10.645956 m 36.984349 10.645956 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 70.001966 10.645956 m 70.001966 10.645956 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 36.784349 10.645956 m 36.784349 11.792623 l 70.201966 11.792623 l 70.201966 10.645956 l f
+n 36.984349 11.792623 m 36.984349 11.792623 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 70.001966 11.792623 m 70.001966 11.792623 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 36.984349 10.445956 m 70.001966 10.445956 l s
+n 36.984349 11.992623 m 70.001966 11.992623 l s
+n 36.984349 10.645956 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 70.001966 10.645956 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 36.784349 10.645956 m 36.784349 11.792623 l s
+n 70.201966 10.645956 m 70.201966 11.792623 l s
+n 36.984349 11.792623 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 70.001966 11.792623 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(matriz que contiene una medida de calidad para cada dato coorespondiente en mapping_table  ) dup sw 2 div 53.493158 ex sub 11.256623 m
+ gs 1 -1 sc sh gr
+0.235294 0.752941 0.921569 srgb
+n 32.480000 10.390000 m 32.480000 12.236667 l 36.082500 12.236667 l 36.082500 10.390000 l f
+n 32.480000 10.690000 m 32.480000 10.690000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 36.082500 10.690000 m 36.082500 10.690000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 32.180000 10.690000 m 32.180000 11.936667 l 36.382500 11.936667 l 36.382500 10.690000 l f
+n 32.480000 11.936667 m 32.480000 11.936667 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 36.082500 11.936667 m 36.082500 11.936667 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 32.480000 10.390000 m 36.082500 10.390000 l s
+n 32.480000 12.236667 m 36.082500 12.236667 l s
+n 32.480000 10.690000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 36.082500 10.690000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 32.180000 10.690000 m 32.180000 11.936667 l s
+n 36.382500 10.690000 m 36.382500 11.936667 l s
+n 32.480000 11.936667 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 36.082500 11.936667 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(d_min) 32.480000 11.350667 m
+ gs 1 -1 sc sh gr
+1.000000 0.647059 0.000000 srgb
+n 8.778915 -7.853333 m 8.778915 -6.306667 l 13.967272 -6.306667 l 13.967272 -7.853333 l f
+n 8.778915 -7.653333 m 8.778915 -7.653333 0.200000 0.200000 180.000000 270.000000 ellipse f
+n 13.967272 -7.653333 m 13.967272 -7.653333 0.200000 0.200000 270.000000 360.000000 ellipse f
+n 8.578915 -7.653333 m 8.578915 -6.506667 l 14.167272 -6.506667 l 14.167272 -7.653333 l f
+n 8.778915 -6.506667 m 8.778915 -6.506667 0.200000 0.200000 90.000000 180.000000 ellipse f
+n 13.967272 -6.506667 m 13.967272 -6.506667 0.200000 0.200000 0.000000 90.000000 ellipse f
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 8.778915 -7.853333 m 13.967272 -7.853333 l s
+n 8.778915 -6.306667 m 13.967272 -6.306667 l s
+n 8.778915 -7.653333 0.200000 0.200000 180.000000 270.000000 ellipse s
+n 13.967272 -7.653333 0.200000 0.200000 270.000000 360.000000 ellipse s
+n 8.578915 -7.653333 m 8.578915 -6.506667 l s
+n 14.167272 -7.653333 m 14.167272 -6.506667 l s
+n 8.778915 -6.506667 0.200000 0.200000 90.000000 180.000000 ellipse s
+n 13.967272 -6.506667 0.200000 0.200000 0.000000 90.000000 ellipse s
+/Helvetica-latin1 ff 0.592667 scf sf
+(Estructura like) dup sw 2 div 11.373094 ex sub -7.042667 m
+ gs 1 -1 sc sh gr
+0.235294 0.752941 0.921569 srgb
+n 5.854400 -7.830000 m 5.854400 -5.983333 l 7.611212 -5.983333 l 7.611212 -7.830000 l f
+n 5.854400 -7.530000 m 5.854400 -7.530000 0.300000 0.300000 180.000000 270.000000 ellipse f
+n 7.611212 -7.530000 m 7.611212 -7.530000 0.300000 0.300000 270.000000 360.000000 ellipse f
+n 5.554400 -7.530000 m 5.554400 -6.283333 l 7.911212 -6.283333 l 7.911212 -7.530000 l f
+n 5.854400 -6.283333 m 5.854400 -6.283333 0.300000 0.300000 90.000000 180.000000 ellipse f
+n 7.611212 -6.283333 m 7.611212 -6.283333 0.300000 0.300000 0.000000 90.000000 ellipse f
+0.200000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 5.854400 -7.830000 m 7.611212 -7.830000 l s
+n 5.854400 -5.983333 m 7.611212 -5.983333 l s
+n 5.854400 -7.530000 0.300000 0.300000 180.000000 270.000000 ellipse s
+n 7.611212 -7.530000 0.300000 0.300000 270.000000 360.000000 ellipse s
+n 5.554400 -7.530000 m 5.554400 -6.283333 l s
+n 7.911212 -7.530000 m 7.911212 -6.283333 l s
+n 5.854400 -6.283333 0.300000 0.300000 90.000000 180.000000 ellipse s
+n 7.611212 -6.283333 0.300000 0.300000 0.000000 90.000000 ellipse s
+/Helvetica-Bold-latin1 ff 0.592667 scf sf
+(like) 5.854400 -6.869333 m
+ gs 1 -1 sc sh gr
+/Helvetica-Bold-latin1 ff 0.864306 scf sf
+(ESTRUCTURAS CENTRALES) 25.375000 -59.796944 m
+ gs 1 -1 sc sh gr
+/Helvetica-Bold-latin1 ff 0.864306 scf sf
+(ESTRUCTURAS AUXILIARES) 25.105000 -29.439444 m
+ gs 1 -1 sc sh gr
+showpage

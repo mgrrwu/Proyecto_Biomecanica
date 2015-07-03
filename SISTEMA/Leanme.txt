@@ -1,0 +1,7 @@
+Correr la función 
+main.m
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+De lo contrario si no se quiere utilizar varios núcleos para los procesamientos:
+add_paths.m 
+y luego 
+main_gui.m
